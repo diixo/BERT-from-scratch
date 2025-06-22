@@ -1,0 +1,114 @@
+import os
+import torch
+from tokenizers import Tokenizer, models, pre_tokenizers, trainers
+from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM
+from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
+from torch.utils.data import Dataset
+
+# 1. Create simple corpus with 5 sentences
+corpus = [
+    "Привет, как дела?",
+    "Это тестовое предложение.",
+    "Обучаем токенизатор с нуля.",
+    "BERT требует специальной токенизации.",
+    "Небольшой пример для обучения."
+]
+
+corpus_path = "corpus.txt"
+with open(corpus_path, "w", encoding="utf-8") as f:
+    for line in corpus:
+        f.write(line + "\n")
+
+# 2. Train WordPiece tokenizer
+tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
+tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
+
+trainer = trainers.WordPieceTrainer(
+    vocab_size=1000,
+    min_frequency=1,
+    special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
+)
+
+tokenizer.train(files=[corpus_path], trainer=trainer)
+
+tokenizer_file = "wordpiece_tokenizer.json"
+tokenizer.save(tokenizer_file)
+
+print(f"Tokenizer saved to {tokenizer_file}")
+
+# 3. Load tokenizer into Hugging-Face format
+hf_tokenizer = PreTrainedTokenizerFast(
+    tokenizer_file=tokenizer_file,
+    unk_token="[UNK]",
+    pad_token="[PAD]",
+    cls_token="[CLS]",
+    sep_token="[SEP]",
+    mask_token="[MASK]"
+)
+
+# Check tokenization
+test_text = "Обучаем токенизатор с нуля."
+print("Tokens:", hf_tokenizer.tokenize(test_text))
+print("Token IDs:", hf_tokenizer(test_text)["input_ids"])
+
+# 4. Create config with BERT model
+config = BertConfig(
+    vocab_size=hf_tokenizer.vocab_size,
+    hidden_size=256,
+    num_hidden_layers=4,
+    num_attention_heads=4,
+    intermediate_size=512,
+    max_position_embeddings=512,
+)
+
+model = BertForMaskedLM(config)
+
+# 5. Create simple dataset
+class SmallTextDataset(Dataset):
+    def __init__(self, texts, tokenizer: PreTrainedTokenizerFast):
+        self.examples = [tokenizer.encode(t, max_length=64, truncation=True, padding='max_length') for t in texts]
+
+    def __len__(self):
+        return len(self.examples)
+
+    def __getitem__(self, idx):
+        input_ids = self.examples[idx]
+        attention_mask = [1] * len(input_ids)
+        return {
+            "input_ids": torch.tensor(input_ids, dtype=torch.long),
+            "attention_mask": torch.tensor(attention_mask, dtype=torch.long),
+            "labels": torch.tensor(input_ids, dtype=torch.long),
+        }
+
+dataset = SmallTextDataset(corpus, hf_tokenizer)
+
+# 6. Create collator for MLM (masking random tokens)
+data_collator = DataCollatorForLanguageModeling(tokenizer=hf_tokenizer, mlm=True, mlm_probability=0.15)
+
+# 7. Tune params for learning
+training_args = TrainingArguments(
+    output_dir="./bert_small",
+    overwrite_output_dir=True,
+    num_train_epochs=10,
+    per_device_train_batch_size=2,
+    save_steps=10,
+    save_total_limit=2,
+    prediction_loss_only=True,
+    logging_steps=5,
+)
+
+# 8. Trainer initialization
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    data_collator=data_collator,
+    train_dataset=dataset,
+)
+
+# 9. Train
+trainer.train()
+
+# (optionally) Save trained model with tokenizer
+trainer.save_model("./bert_small")
+hf_tokenizer.save_pretrained("./bert_small_tokenizer")
+print("Training finished and model saved.")
