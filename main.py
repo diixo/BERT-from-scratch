@@ -4,29 +4,37 @@ from tokenizers import Tokenizer, models, pre_tokenizers, trainers
 from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
 from torch.utils.data import Dataset
+from tokenizers.normalizers import Sequence, Lowercase
+from tokenizers.pre_tokenizers import ByteLevel
+
 
 # 1. Create simple corpus with 5 sentences
-corpus = [
-    "Привет, как дела?",
-    "Это тестовое предложение.",
-    "Обучаем токенизатор с нуля.",
-    "BERT требует специальной токенизации.",
-    "Небольшой пример для обучения."
-]
+sentences = """We are about to study the idea of a computational process.
+Computational processes are abstract beings that inhabit computers.
+As they evolve, processes manipulate other abstract things called data.
+The evolution of a process is directed by a pattern of rules
+called a program. People create programs to direct processes. In effect,
+we conjure the spirits of the computer with our spells."""
+
+
+corpus = sentences.split('\n')
 
 corpus_path = "corpus.txt"
 with open(corpus_path, "w", encoding="utf-8") as f:
     for line in corpus:
         f.write(line + "\n")
 
+
 # 2. Train WordPiece tokenizer
 tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
 tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
+tokenizer.normalizer = Sequence([Lowercase()])
 
 trainer = trainers.WordPieceTrainer(
     vocab_size=1000,
     min_frequency=1,
-    special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
+    special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
+    #initial_alphabet=ByteLevel.alphabet(),
 )
 
 tokenizer.train(files=[corpus_path], trainer=trainer)
@@ -35,6 +43,7 @@ tokenizer_file = "wordpiece_tokenizer.json"
 tokenizer.save(tokenizer_file)
 
 print(f"Tokenizer saved to {tokenizer_file}")
+
 
 # 3. Load tokenizer into Hugging-Face format
 hf_tokenizer = PreTrainedTokenizerFast(
@@ -47,9 +56,10 @@ hf_tokenizer = PreTrainedTokenizerFast(
 )
 
 # Check tokenization
-test_text = "Обучаем токенизатор с нуля."
+test_text = "What are computational processes?"
 print("Tokens:", hf_tokenizer.tokenize(test_text))
 print("Token IDs:", hf_tokenizer(test_text)["input_ids"])
+
 
 # 4. Create config with BERT model
 config = BertConfig(
@@ -62,6 +72,7 @@ config = BertConfig(
 )
 
 model = BertForMaskedLM(config)
+
 
 # 5. Create simple dataset
 class SmallTextDataset(Dataset):
@@ -82,8 +93,10 @@ class SmallTextDataset(Dataset):
 
 dataset = SmallTextDataset(corpus, hf_tokenizer)
 
+
 # 6. Create collator for MLM (masking random tokens)
 data_collator = DataCollatorForLanguageModeling(tokenizer=hf_tokenizer, mlm=True, mlm_probability=0.15)
+
 
 # 7. Tune params for learning
 training_args = TrainingArguments(
@@ -91,11 +104,12 @@ training_args = TrainingArguments(
     overwrite_output_dir=True,
     num_train_epochs=10,
     per_device_train_batch_size=2,
-    save_steps=10,
-    save_total_limit=2,
+    #save_steps=10,
+    #save_total_limit=2,
     prediction_loss_only=True,
     logging_steps=5,
 )
+
 
 # 8. Trainer initialization
 trainer = Trainer(
@@ -105,10 +119,12 @@ trainer = Trainer(
     train_dataset=dataset,
 )
 
+
 # 9. Train
 trainer.train()
 
+
 # (optionally) Save trained model with tokenizer
-trainer.save_model("./bert_small")
-hf_tokenizer.save_pretrained("./bert_small_tokenizer")
+#trainer.save_model("./bert_small")
+#hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 print("Training finished and model saved.")
