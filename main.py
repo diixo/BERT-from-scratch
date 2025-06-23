@@ -6,6 +6,15 @@ from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArgum
 from torch.utils.data import Dataset
 from tokenizers.normalizers import Sequence, Lowercase
 from tokenizers.pre_tokenizers import ByteLevel
+import random
+import numpy as np
+
+
+seed = 42
+random.seed(seed)
+np.random.seed(seed)
+torch.manual_seed(seed)
+torch.cuda.manual_seed_all(seed)
 
 
 outpath = "output.txt"
@@ -73,6 +82,7 @@ def tokens_to_file():
                 f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
 
 tokens_to_file()
+
 
 # Check tokenization
 #test_text = "What are computational processes?"
