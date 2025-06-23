@@ -1,4 +1,4 @@
-import os
+
 import torch
 from tokenizers import Tokenizer, models, pre_tokenizers, trainers
 from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM
@@ -6,6 +6,9 @@ from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArgum
 from torch.utils.data import Dataset
 from tokenizers.normalizers import Sequence, Lowercase
 from tokenizers.pre_tokenizers import ByteLevel
+
+
+outpath = "output.txt"
 
 
 # 1. Create simple corpus with 5 sentences
@@ -30,14 +33,17 @@ tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
 tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
 tokenizer.normalizer = Sequence([Lowercase()])
 
+initial_alphabet = ByteLevel.alphabet()
+initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
+
 trainer = trainers.WordPieceTrainer(
-    vocab_size=1000,
+    vocab_size=4000,
     min_frequency=1,
     special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
-    #initial_alphabet=ByteLevel.alphabet(),
+    initial_alphabet=initial_alphabet,
 )
 
-tokenizer.train(files=[corpus_path], trainer=trainer)
+tokenizer.train(files=["db-full.txt"], trainer=trainer)
 
 tokenizer_file = "wordpiece_tokenizer.json"
 tokenizer.save(tokenizer_file)
@@ -55,10 +61,23 @@ hf_tokenizer = PreTrainedTokenizerFast(
     mask_token="[MASK]"
 )
 
+
+def tokens_to_file():
+    with open("db-full.txt", "r", encoding="utf-8") as f:
+        word_set = set([line.strip() for line in f if line.strip()])
+    word_set = sorted(word_set)
+
+    with open(outpath, "w", encoding="utf-8") as f_out:
+        for w in word_set:
+            if w.find("-") < 0:
+                f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
+
+tokens_to_file()
+
 # Check tokenization
-test_text = "What are computational processes?"
-print("Tokens:", hf_tokenizer.tokenize(test_text))
-print("Token IDs:", hf_tokenizer(test_text)["input_ids"])
+#test_text = "What are computational processes?"
+#print("Tokens:", hf_tokenizer.tokenize(test_text))
+#print("Token IDs:", hf_tokenizer(test_text)["input_ids"])
 
 
 # 4. Create config with BERT model
