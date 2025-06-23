@@ -37,7 +37,7 @@ initial_alphabet = ByteLevel.alphabet()
 initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
 
 trainer = trainers.WordPieceTrainer(
-    vocab_size=4000,
+    vocab_size=5000,
     min_frequency=1,
     special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
     initial_alphabet=initial_alphabet,
