@@ -37,34 +37,35 @@ with open(corpus_path, "w", encoding="utf-8") as f:
         f.write(line + "\n")
 
 
-# 2. Train WordPiece tokenizer
-tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
-tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
-tokenizer.normalizer = Sequence([Lowercase()])
+def train_tokenizer():
+    # 2. Train WordPiece tokenizer
+    tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
+    tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
+    tokenizer.normalizer = Sequence([Lowercase()])
 
-initial_alphabet = ByteLevel.alphabet()
-initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
+    initial_alphabet = ByteLevel.alphabet()
+    initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
 
-trainer = trainers.WordPieceTrainer(
-    vocab_size=5000,
-    min_frequency=1,
-    special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
-    initial_alphabet=initial_alphabet,
-)
+    trainer = trainers.WordPieceTrainer(
+        vocab_size=5000,
+        min_frequency=1,
+        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
+        initial_alphabet=initial_alphabet,
+    )
 
-tokenizer.train(files=["db-full.txt"], trainer=trainer)
+    tokenizer.train(files=["db-full.txt"], trainer=trainer)
 
-tokenizer_file = "wordpiece_tokenizer.json"
-tokenizer.save(tokenizer_file)
-
-print(f"Tokenizer saved to {tokenizer_file}")
+    tokenizer_file = "wordpiece_tokenizer.json"
+    tokenizer.save(tokenizer_file)
+    print(f"Tokenizer saved to {tokenizer_file}")
+    return tokenizer_file
 
 
 # 3. Load tokenizer into Hugging-Face format
 hf_tokenizer = PreTrainedTokenizerFast(
-    tokenizer_file=tokenizer_file,
-    unk_token="[UNK]",
+    tokenizer_file=train_tokenizer(),
     pad_token="[PAD]",
+    unk_token="[UNK]",
     cls_token="[CLS]",
     sep_token="[SEP]",
     mask_token="[MASK]"
