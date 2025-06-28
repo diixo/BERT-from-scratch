@@ -9,13 +9,11 @@ from tokenizers.pre_tokenizers import ByteLevel
 import random
 import numpy as np
 
-
 seed = 42
 random.seed(seed)
 np.random.seed(seed)
 torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
-
 
 outpath = "output.txt"
 
@@ -28,9 +26,7 @@ The evolution of a process is directed by a pattern of rules
 called a program. People create programs to direct processes. In effect,
 we conjure the spirits of the computer with our spells."""
 
-
 corpus = sentences.split('\n')
-
 corpus_path = "corpus.txt"
 with open(corpus_path, "w", encoding="utf-8") as f:
     for line in corpus:
@@ -61,9 +57,39 @@ def train_tokenizer():
     return tokenizer_file
 
 
+def vocab_tokenizer():
+    words = []
+    with open("vocab.txt", "r", encoding="utf-8") as f:
+        words = [line.strip() for line in f if line.strip()]
+
+    # 2. Train WordPiece tokenizer
+    tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
+    tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
+    tokenizer.normalizer = Sequence([Lowercase()])
+
+    initial_alphabet = ByteLevel.alphabet()
+    initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
+    ext_alphabet = ["##a", "##b", "##c", "##d", "##e", "##f", "##g", "##h", "##i", "##j", "##k", "##l", "##m",
+                    "##n", "##o", "##p", "##q", "##r", "##s", "##t", "##u", "##v", "##w", "##x", "##y", "##z"]
+
+    trainer = trainers.WordPieceTrainer(
+        vocab_size=50000,
+        min_frequency=1,
+        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"] + ext_alphabet + words,
+        initial_alphabet=initial_alphabet,
+    )
+
+    tokenizer.train(files=[], trainer=trainer)
+
+    tokenizer_file = "wordpiece_tokenizer.json"
+    tokenizer.save(tokenizer_file)
+    print(f"Tokenizer saved to {tokenizer_file}")
+    return tokenizer_file
+
+
 # 3. Load tokenizer into Hugging-Face format
 hf_tokenizer = PreTrainedTokenizerFast(
-    tokenizer_file=train_tokenizer(),
+    tokenizer_file=vocab_tokenizer(),
     pad_token="[PAD]",
     unk_token="[UNK]",
     cls_token="[CLS]",
