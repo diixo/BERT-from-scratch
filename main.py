@@ -5,7 +5,10 @@ from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
 from torch.utils.data import Dataset
 from tokenizers.normalizers import Sequence, Lowercase
-from tokenizers.pre_tokenizers import ByteLevel
+from tokenizers.pre_tokenizers import ByteLevel, BertPreTokenizer
+from transformers import BertTokenizerFast
+from tokenizers.normalizers import BertNormalizer
+
 import random
 import numpy as np
 
@@ -22,8 +25,8 @@ outpath = "output.txt"
 sentences = """We are about to study the idea of a computational process.
 Computational processes are abstract beings that inhabit computers.
 As they evolve, processes manipulate other abstract things called data.
-The evolution of a process is directed by a pattern of rules
-called a program. People create programs to direct processes. In effect,
+The evolution of a process is directed by a pattern of rules called a program.
+People create programs to direct processes. In effect,
 we conjure the spirits of the computer with our spells."""
 
 corpus = sentences.split('\n')
@@ -78,6 +81,7 @@ def vocab_tokenizer():
         special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"] + ext_alphabet + words,
         initial_alphabet=initial_alphabet,
     )
+
 
     tokenizer.train(files=[], trainer=trainer)
 
@@ -160,8 +164,6 @@ training_args = TrainingArguments(
     overwrite_output_dir=True,
     num_train_epochs=10,
     per_device_train_batch_size=2,
-    #save_steps=10,
-    #save_total_limit=2,
     prediction_loss_only=True,
     logging_steps=5,
 )
@@ -184,3 +186,33 @@ trainer.train()
 #trainer.save_model("./bert_small")
 #hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 print("Training finished and model saved.")
+
+
+def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
+    test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
+    print("Tokens:", tokenizer.tokenize(test_txt))
+    print("Tokens:", tokenizer.tokenize("The"))
+
+    inputs = tokenizer(test_txt, return_tensors="pt")
+
+    mask_token_index = torch.where(inputs["input_ids"] == tokenizer.mask_token_id)[1]
+
+    # Прогон через модель
+    model.eval()
+    with torch.no_grad():
+        outputs = model(**inputs)
+        logits = outputs.logits
+
+    # Logits for [MASK]
+    mask_token_logits = logits[0, mask_token_index, :]
+
+    # Top-5 tokens
+    top_tokens = torch.topk(mask_token_logits, 3, dim=1).indices[0].tolist()
+
+    # Decoding
+    print("Top predictions:")
+    for token in top_tokens:
+        print(f"{tokenizer.decode([token])}")
+
+
+test(hf_tokenizer, model.cpu())
