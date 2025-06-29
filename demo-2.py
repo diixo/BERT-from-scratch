@@ -9,10 +9,9 @@ from tokenizers.normalizers import BertNormalizer
 outpath = "data/output.txt"
 
 
-
 def vocab_tokenizer():
     words = []
-    with open("tokens.txt", "r", encoding="utf-8") as f:
+    with open("data/tokens.txt", "r", encoding="utf-8") as f:
         words = sorted([line.strip() for line in f if line.strip()])
 
     # 2. Train WordPiece tokenizer
