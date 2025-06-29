@@ -16,12 +16,12 @@ The evolution of a process is directed by a pattern of rules called a program.
 People create programs to direct processes. In effect,
 we conjure the spirits of the computer with our spells."""
 
+
 sentences = sentences.split('\n')
 corpus_path = "corpus.txt"
 with open(corpus_path, "w", encoding="utf-8") as f:
     for line in sentences:
         f.write(line + "\n")
-
 corpus = 100 * sentences
 
 
@@ -50,7 +50,6 @@ def vocab_tokenizer():
         special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"] + ext_alphabet,
         initial_alphabet=initial_alphabet,
     )
-
 
     tokenizer.train(files=['training.txt'], trainer=trainer)
     #tokenizer.add_tokens(words)
