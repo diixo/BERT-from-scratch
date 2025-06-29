@@ -1,6 +1,6 @@
 
 import torch
-from tokenizers import Tokenizer, models, pre_tokenizers, trainers
+from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders
 from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
 from torch.utils.data import Dataset
@@ -67,8 +67,15 @@ def vocab_tokenizer():
 
     # 2. Train WordPiece tokenizer
     tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
-    tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
-    tokenizer.normalizer = Sequence([Lowercase()])
+    tokenizer.pre_tokenizer = BertPreTokenizer()
+    tokenizer.normalizer = BertNormalizer(
+        clean_text=True,
+        handle_chinese_chars=True,
+        strip_accents=True,
+        lowercase=True,
+    )
+    tokenizer.decoder = decoders.WordPiece(prefix="##")
+
 
     initial_alphabet = ByteLevel.alphabet()
     initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
@@ -76,14 +83,15 @@ def vocab_tokenizer():
                     "##n", "##o", "##p", "##q", "##r", "##s", "##t", "##u", "##v", "##w", "##x", "##y", "##z"]
 
     trainer = trainers.WordPieceTrainer(
-        vocab_size=50000,
+        vocab_size=50_000,
         min_frequency=1,
-        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"] + ext_alphabet + words,
+        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
         initial_alphabet=initial_alphabet,
     )
 
 
     tokenizer.train(files=[], trainer=trainer)
+    tokenizer.add_tokens(words + ext_alphabet)
 
     tokenizer_file = "wordpiece_tokenizer.json"
     tokenizer.save(tokenizer_file)
@@ -92,7 +100,7 @@ def vocab_tokenizer():
 
 
 # 3. Load tokenizer into Hugging-Face format
-hf_tokenizer = PreTrainedTokenizerFast(
+hf_tokenizer = BertTokenizerFast(
     tokenizer_file=vocab_tokenizer(),
     pad_token="[PAD]",
     unk_token="[UNK]",
@@ -100,6 +108,12 @@ hf_tokenizer = PreTrainedTokenizerFast(
     sep_token="[SEP]",
     mask_token="[MASK]"
 )
+
+# hf_tokenizer.save_pretrained("./bert_small_tokenizer")
+
+test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
+print("Tokens:", hf_tokenizer.tokenize(test_txt))
+print("Tokens:", hf_tokenizer.tokenize("The"))
 
 
 def tokens_to_file():
@@ -113,6 +127,8 @@ def tokens_to_file():
                 f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
 
 tokens_to_file()
+
+exit(0)
 
 
 # Check tokenization
@@ -184,7 +200,6 @@ trainer.train()
 
 # (optionally) Save trained model with tokenizer
 #trainer.save_model("./bert_small")
-#hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 print("Training finished and model saved.")
 
 
