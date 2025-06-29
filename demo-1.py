@@ -88,11 +88,6 @@ hf_tokenizer = BertTokenizerFast(
 
 # hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
-test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
-print("Tokens:", hf_tokenizer.tokenize(test_txt))
-print("Tokens:", hf_tokenizer.tokenize("The"))
-
-
 def tokens_to_file():
     with open("db-full.txt", "r", encoding="utf-8") as f:
         word_set = set([line.strip() for line in f if line.strip()])
@@ -103,7 +98,6 @@ def tokens_to_file():
             if w.find("-") < 0:
                 f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
 
-exit(0)
 
 tokens_to_file()
 
@@ -120,8 +114,8 @@ config = BertConfig(
     hidden_size=256,
     num_hidden_layers=4,
     num_attention_heads=4,
-    intermediate_size=512,
-    max_position_embeddings=512,
+    intermediate_size=256,
+    max_position_embeddings=256,
 )
 
 model = BertForMaskedLM(config)
@@ -130,7 +124,7 @@ model = BertForMaskedLM(config)
 # 5. Create simple dataset
 class SmallTextDataset(Dataset):
     def __init__(self, texts, tokenizer: PreTrainedTokenizerFast):
-        self.examples = [tokenizer.encode(t, max_length=64, truncation=True, padding='max_length') for t in texts]
+        self.examples = [tokenizer.encode(t, max_length=32, truncation=True, padding='max_length') for t in texts]
 
     def __len__(self):
         return len(self.examples)
@@ -153,9 +147,9 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=hf_tokenizer, mlm=True
 
 # 7. Tune params for learning
 training_args = TrainingArguments(
-    output_dir="./bert_small",
+    #output_dir="./bert_small",
     overwrite_output_dir=True,
-    num_train_epochs=10,
+    num_train_epochs=200,
     per_device_train_batch_size=2,
     prediction_loss_only=True,
     logging_steps=5,
@@ -182,8 +176,6 @@ print("Training finished and model saved.")
 
 def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
     test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
-    print("Tokens:", tokenizer.tokenize(test_txt))
-    print("Tokens:", tokenizer.tokenize("The"))
 
     inputs = tokenizer(test_txt, return_tensors="pt")
 
@@ -205,6 +197,11 @@ def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
     print("Top predictions:")
     for token in top_tokens:
         print(f"{tokenizer.decode([token])}")
+
+    print("########################################")
+    for sent in corpus:
+        print("Tokens:", hf_tokenizer.tokenize(sent))
+
 
 
 test(hf_tokenizer, model.cpu())
