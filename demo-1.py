@@ -152,8 +152,8 @@ trainer.train()
 print("Training finished and model saved.")
 
 
-def test_pipeline(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
-    test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
+# 10. Test pipeline by prediction the masking word
+def test_pipeline(test_txt: str, tokenizer: BertTokenizerFast, model: BertForMaskedLM):
 
     inputs = tokenizer(test_txt, return_tensors="pt")
 
@@ -181,4 +181,5 @@ def test_pipeline(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
         print(f"{tokenizer.decode([token])}")
 
 
-test_pipeline(hf_tokenizer, model.cpu())
+test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
+test_pipeline(test_txt, hf_tokenizer, model.cpu())
