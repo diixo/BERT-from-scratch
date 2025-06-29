@@ -35,9 +35,6 @@ corpus = 5 * sentences
 
 
 def vocab_tokenizer():
-    words = []
-    with open("tokens.txt", "r", encoding="utf-8") as f:
-        words = sorted([line.strip() for line in f if line.strip()])
 
     # 2. Train WordPiece tokenizer
     tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
