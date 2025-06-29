@@ -4,3 +4,5 @@
 
 *.tfevents.*
 /bert_small/*
+
+corpus.txt
