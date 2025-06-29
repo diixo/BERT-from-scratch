@@ -69,7 +69,7 @@ def vocab_tokenizer():
     tokenizer.train(files=['training.txt'], trainer=trainer)
     #tokenizer.add_tokens(words)
 
-    tokenizer_file = "demo-1-tokenizer.json"
+    tokenizer_file = "wordpiece-1-tokenizer.json"
     tokenizer.save(tokenizer_file)
     print(f"Tokenizer saved to {tokenizer_file}")
     return tokenizer_file
@@ -167,7 +167,7 @@ def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
 
     mask_token_index = torch.where(inputs["input_ids"] == tokenizer.mask_token_id)[1]
 
-    # Прогон через модель
+    # pass data through a model 
     model.eval()
     with torch.no_grad():
         outputs = model(**inputs)
