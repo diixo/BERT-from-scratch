@@ -6,7 +6,7 @@ from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
 
 
-outpath = "output.txt"
+outpath = "data/output.txt"
 
 
 
