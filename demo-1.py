@@ -128,6 +128,7 @@ training_args = TrainingArguments(
     per_device_train_batch_size=4,
     prediction_loss_only=True,
     logging_steps=5,
+    learning_rate=1e-4,
 )
 
 
