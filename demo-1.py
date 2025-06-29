@@ -152,7 +152,7 @@ trainer.train()
 print("Training finished and model saved.")
 
 
-def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
+def test_pipeline(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
     test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
 
     inputs = tokenizer(test_txt, return_tensors="pt")
@@ -171,14 +171,14 @@ def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
     # Top-5 tokens
     top_tokens = torch.topk(mask_token_logits, 3, dim=1).indices[0].tolist()
 
+    for sent in sentences:
+        print("Tokens:", hf_tokenizer.tokenize(sent))
+    print("########################################")
+
     # Decoding
     print("Top predictions:")
     for token in top_tokens:
         print(f"{tokenizer.decode([token])}")
 
-    print("########################################")
-    for sent in sentences:
-        print("Tokens:", hf_tokenizer.tokenize(sent))
 
-
-test(hf_tokenizer, model.cpu())
+test_pipeline(hf_tokenizer, model.cpu())
