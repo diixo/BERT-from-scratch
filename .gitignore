@@ -3,3 +3,4 @@
 /.idea
 
 *.tfevents.*
+/bert_small/*
