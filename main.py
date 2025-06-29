@@ -36,33 +36,10 @@ with open(corpus_path, "w", encoding="utf-8") as f:
         f.write(line + "\n")
 
 
-def train_tokenizer():
-    # 2. Train WordPiece tokenizer
-    tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
-    tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
-    tokenizer.normalizer = Sequence([Lowercase()])
-
-    initial_alphabet = ByteLevel.alphabet()
-    initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789")
-
-    trainer = trainers.WordPieceTrainer(
-        vocab_size=5000,
-        min_frequency=1,
-        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
-        initial_alphabet=initial_alphabet,
-    )
-
-    tokenizer.train(files=["db-full.txt"], trainer=trainer)
-
-    tokenizer_file = "wordpiece_tokenizer.json"
-    tokenizer.save(tokenizer_file)
-    print(f"Tokenizer saved to {tokenizer_file}")
-    return tokenizer_file
-
 
 def vocab_tokenizer():
     words = []
-    with open("vocab.txt", "r", encoding="utf-8") as f:
+    with open("tokens.txt", "r", encoding="utf-8") as f:
         words = sorted([line.strip() for line in f if line.strip()])
 
     # 2. Train WordPiece tokenizer
@@ -84,14 +61,14 @@ def vocab_tokenizer():
 
     trainer = trainers.WordPieceTrainer(
         vocab_size=50_000,
-        min_frequency=1,
+        min_frequency=3,
         special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"] + ext_alphabet,
         initial_alphabet=initial_alphabet,
     )
 
 
-    tokenizer.train(files=[], trainer=trainer)
-    tokenizer.add_tokens(words)
+    tokenizer.train(files=['training.txt'], trainer=trainer)
+    #tokenizer.add_tokens(words)
 
     tokenizer_file = "wordpiece_tokenizer.json"
     tokenizer.save(tokenizer_file)
@@ -126,9 +103,9 @@ def tokens_to_file():
             if w.find("-") < 0:
                 f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
 
-tokens_to_file()
-
 exit(0)
+
+tokens_to_file()
 
 
 # Check tokenization
