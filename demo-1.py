@@ -17,9 +17,6 @@ torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
 
 
-outpath = "output.txt"
-
-
 # 1. Create simple corpus with 5 sentences
 sentences = """We are about to study the idea of a computational process.
 Computational processes are abstract beings that inhabit computers.
@@ -28,12 +25,13 @@ The evolution of a process is directed by a pattern of rules called a program.
 People create programs to direct processes. In effect,
 we conjure the spirits of the computer with our spells."""
 
-corpus = sentences.split('\n')
+sentences = sentences.split('\n')
 corpus_path = "corpus.txt"
 with open(corpus_path, "w", encoding="utf-8") as f:
-    for line in corpus:
+    for line in sentences:
         f.write(line + "\n")
 
+corpus = 5 * sentences
 
 
 def vocab_tokenizer():
@@ -88,12 +86,6 @@ hf_tokenizer = BertTokenizerFast(
 # hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
 
-# Check tokenization
-#test_text = "What are computational processes?"
-#print("Tokens:", hf_tokenizer.tokenize(test_text))
-#print("Token IDs:", hf_tokenizer(test_text)["input_ids"])
-
-
 # 4. Create config with BERT model
 config = BertConfig(
     vocab_size=hf_tokenizer.vocab_size,
@@ -135,8 +127,8 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=hf_tokenizer, mlm=True
 training_args = TrainingArguments(
     output_dir="./bert_small",
     overwrite_output_dir=True,
-    num_train_epochs=200,
-    per_device_train_batch_size=2,
+    num_train_epochs=50,
+    per_device_train_batch_size=4,
     prediction_loss_only=True,
     logging_steps=5,
 )
@@ -185,7 +177,7 @@ def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
         print(f"{tokenizer.decode([token])}")
 
     print("########################################")
-    for sent in corpus:
+    for sent in sentences:
         print("Tokens:", hf_tokenizer.tokenize(sent))
 
 
