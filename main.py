@@ -63,7 +63,7 @@ def train_tokenizer():
 def vocab_tokenizer():
     words = []
     with open("vocab.txt", "r", encoding="utf-8") as f:
-        words = [line.strip() for line in f if line.strip()]
+        words = sorted([line.strip() for line in f if line.strip()])
 
     # 2. Train WordPiece tokenizer
     tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
@@ -85,13 +85,13 @@ def vocab_tokenizer():
     trainer = trainers.WordPieceTrainer(
         vocab_size=50_000,
         min_frequency=1,
-        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"],
+        special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"] + ext_alphabet,
         initial_alphabet=initial_alphabet,
     )
 
 
     tokenizer.train(files=[], trainer=trainer)
-    tokenizer.add_tokens(words + ext_alphabet)
+    tokenizer.add_tokens(words)
 
     tokenizer_file = "wordpiece_tokenizer.json"
     tokenizer.save(tokenizer_file)
