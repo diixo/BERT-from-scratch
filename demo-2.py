@@ -62,7 +62,7 @@ hf_tokenizer = BertTokenizerFast(
 
 
 def tokens_to_file():
-    with open("db-full.txt", "r", encoding="utf-8") as f:
+    with open("data/db-full.txt", "r", encoding="utf-8") as f:
         word_set = set([line.strip() for line in f if line.strip()])
     word_set = sorted(word_set)
 
