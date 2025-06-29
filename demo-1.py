@@ -88,19 +88,6 @@ hf_tokenizer = BertTokenizerFast(
 
 # hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
-def tokens_to_file():
-    with open("db-full.txt", "r", encoding="utf-8") as f:
-        word_set = set([line.strip() for line in f if line.strip()])
-    word_set = sorted(word_set)
-
-    with open(outpath, "w", encoding="utf-8") as f_out:
-        for w in word_set:
-            if w.find("-") < 0:
-                f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
-
-
-tokens_to_file()
-
 
 # Check tokenization
 #test_text = "What are computational processes?"
@@ -147,7 +134,7 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=hf_tokenizer, mlm=True
 
 # 7. Tune params for learning
 training_args = TrainingArguments(
-    #output_dir="./bert_small",
+    output_dir="./bert_small",
     overwrite_output_dir=True,
     num_train_epochs=200,
     per_device_train_batch_size=2,
