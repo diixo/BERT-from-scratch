@@ -1,12 +1,10 @@
 
 import torch
 from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders
-from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM
+from transformers import PreTrainedTokenizerFast, BertConfig, BertForMaskedLM, BertTokenizerFast
 from transformers import DataCollatorForLanguageModeling, Trainer, TrainingArguments
 from torch.utils.data import Dataset
-from tokenizers.normalizers import Sequence, Lowercase
 from tokenizers.pre_tokenizers import ByteLevel, BertPreTokenizer
-from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
 
 import random
@@ -17,6 +15,7 @@ random.seed(seed)
 np.random.seed(seed)
 torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
+
 
 outpath = "output.txt"
 
@@ -70,7 +69,7 @@ def vocab_tokenizer():
     tokenizer.train(files=['training.txt'], trainer=trainer)
     #tokenizer.add_tokens(words)
 
-    tokenizer_file = "wordpiece_tokenizer.json"
+    tokenizer_file = "demo-1-tokenizer.json"
     tokenizer.save(tokenizer_file)
     print(f"Tokenizer saved to {tokenizer_file}")
     return tokenizer_file
@@ -188,7 +187,6 @@ def test(tokenizer: BertTokenizerFast, model: BertForMaskedLM):
     print("########################################")
     for sent in corpus:
         print("Tokens:", hf_tokenizer.tokenize(sent))
-
 
 
 test(hf_tokenizer, model.cpu())
