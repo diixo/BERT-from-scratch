@@ -7,15 +7,6 @@ from torch.utils.data import Dataset
 from tokenizers.pre_tokenizers import ByteLevel, BertPreTokenizer
 from tokenizers.normalizers import BertNormalizer
 
-import random
-import numpy as np
-
-seed = 42
-random.seed(seed)
-np.random.seed(seed)
-torch.manual_seed(seed)
-torch.cuda.manual_seed_all(seed)
-
 
 # 1. Create simple corpus with 5 sentences
 sentences = """We are about to study the idea of a computational process.
@@ -31,7 +22,7 @@ with open(corpus_path, "w", encoding="utf-8") as f:
     for line in sentences:
         f.write(line + "\n")
 
-corpus = 5 * sentences
+corpus = 100 * sentences
 
 
 def vocab_tokenizer():
@@ -86,11 +77,11 @@ hf_tokenizer = BertTokenizerFast(
 # 4. Create config with BERT model
 config = BertConfig(
     vocab_size=hf_tokenizer.vocab_size,
-    hidden_size=256,
-    num_hidden_layers=4,
-    num_attention_heads=4,
-    intermediate_size=256,
-    max_position_embeddings=256,
+    hidden_size=192,
+    num_hidden_layers=8,
+    num_attention_heads=8,
+    intermediate_size=192,
+    max_position_embeddings=192,
 )
 
 model = BertForMaskedLM(config)
@@ -124,8 +115,8 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=hf_tokenizer, mlm=True
 training_args = TrainingArguments(
     output_dir="./bert_small",
     overwrite_output_dir=True,
-    num_train_epochs=50,
-    per_device_train_batch_size=4,
+    num_train_epochs=5,
+    per_device_train_batch_size=8,
     prediction_loss_only=True,
     logging_steps=5,
     learning_rate=1e-4,
@@ -147,13 +138,13 @@ trainer.train()
 
 # (optionally) Save trained model with tokenizer
 #trainer.save_model("./bert_small")
-print("Training finished and model saved.")
+#print("Training finished and model saved.")
 
 
 # 10. Test pipeline by prediction the masking word
-def test_pipeline(test_txt: str, tokenizer: BertTokenizerFast, model: BertForMaskedLM):
+def test_pipeline(test_str: str, tokenizer: BertTokenizerFast, model: BertForMaskedLM):
 
-    inputs = tokenizer(test_txt, return_tensors="pt")
+    inputs = tokenizer(test_str, return_tensors="pt")
 
     mask_token_index = torch.where(inputs["input_ids"] == tokenizer.mask_token_id)[1]
 
@@ -179,5 +170,5 @@ def test_pipeline(test_txt: str, tokenizer: BertTokenizerFast, model: BertForMas
         print(f"{tokenizer.decode([token])}")
 
 
-test_txt = "The evolution of a process is directed by a pattern of rules called a [MASK]"
-test_pipeline(test_txt, hf_tokenizer, model.cpu())
+test_str = "The evolution of a process is directed by a pattern of rules called a [MASK]"
+test_pipeline(test_str, hf_tokenizer, model.cpu())
