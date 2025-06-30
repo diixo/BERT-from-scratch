@@ -67,9 +67,9 @@ hf_tokenizer = BertTokenizerFast(
     unk_token="[UNK]",
     cls_token="[CLS]",
     sep_token="[SEP]",
-    mask_token="[MASK]"
-)
+    mask_token="[MASK]")
 
+print(f"BertTokenizerFast.sz={hf_tokenizer.vocab_size}")
 # hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
 
