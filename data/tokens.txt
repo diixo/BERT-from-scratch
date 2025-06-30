@@ -507,6 +507,7 @@ business
 but
 button
 buy
+by
 bye
 byte
 cable
@@ -646,6 +647,7 @@ code
 codif
 coefficient
 coffee
+cofound
 cognit
 coheren
 cohesi
@@ -722,6 +724,7 @@ conceal
 conced
 conceit
 conceiv
+concentrat
 concept
 concern
 concert
@@ -880,6 +883,7 @@ crush
 crux
 cry
 crypt
+crypto
 crystal
 css
 cub
@@ -1807,6 +1811,7 @@ help
 hence
 her
 here
+hereby
 hesitat
 heter
 heuristic
@@ -2028,7 +2033,10 @@ internet
 interpolat
 interpret
 interrupt
+interval
+interven
 intim
+into
 intra
 intract
 intric
@@ -2076,6 +2084,7 @@ job
 joic
 join
 jok
+joomla
 jott
 journ
 journal
@@ -2100,6 +2109,8 @@ justif
 jut
 jvm
 jwt
+kanban
+kde
 keen
 keep
 kept
@@ -2113,6 +2124,7 @@ kilo
 kind
 king
 kit
+kivy
 knack
 knew
 knock
@@ -2156,6 +2168,7 @@ lay
 layer
 layout
 laz
+lda
 lead
 leaf
 leak
@@ -2375,6 +2388,7 @@ modif
 modul
 moment
 mon
+money
 mongo
 monitor
 mono
@@ -2515,6 +2529,8 @@ occur
 octa
 october
 odd
+oem
+of
 off
 offenc
 offend
@@ -2526,6 +2542,7 @@ often
 old
 omit
 on
+once
 one
 onerous
 only
@@ -2708,6 +2725,7 @@ poach
 pocket
 pod
 podcast
+poem
 point
 polar
 polic
@@ -2940,12 +2958,25 @@ reduc
 reduc
 redundan
 redux
+ref
 refactor
 refer
+refetch
+refil
+refill
 refin
+refit
 reflect
 reflex
+refocus
+reform
+reformat
+reformulat
+refract
 refrain
+refresh
+refund
+refurbish
 refus
 refut
 regain
@@ -3446,6 +3477,7 @@ stamp
 stand
 stand
 standard
+standby
 star
 stare
 start
@@ -3681,6 +3713,7 @@ theor
 theorem
 ther
 there
+thereby
 therm
 thes
 thesa
@@ -3900,6 +3933,7 @@ vacat
 vagar
 vague
 vain
+val
 valen
 valenc
 valent
