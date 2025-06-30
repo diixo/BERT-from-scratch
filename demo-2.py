@@ -6,7 +6,7 @@ from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
 
 
-outpath = "data/output.txt"
+outpath = "data/output-2.txt"
 
 
 def vocab_tokenizer():
