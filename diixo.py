@@ -348,9 +348,12 @@ diixo = [
 
 
 word_pieces = [
-    "##0", "##1", "##2", "##3", "##4", "##5", "##6", "##7", "##8", "##9", "##est", "##edly", "##ful",
-    "##in", "##ing", "##ive", "##is", "##er", "##es", "##ed", "##ion", "##ment", "##less", "##ness", "##ly",
+    "##0", "##1", "##2", "##3", "##4", "##5", "##6", "##7", "##8", "##9", "##est", "##edly", "##ful", "##day", "##after",
+    "##in", "##ing", "##ive", "##is", "##er", "##es", "##ed", "##ion", "##ment", "##less", "##ness", "##ly", "##al",
     "##ally", "##ous", "##ability", "##able", "##ably", "##ely", "##ently", "##ately", "##tion", "##ity", "##or",
+    "##ior", "##up", "##out", "##about", "##over", "##fore", "##upon", "##self", "##time", "##ware", "##ever", "##some",
+    "##back", "##ic", "##pad", "##mat", "##plot", "##lib", '##graph', "##shop", "##real", "math", "##atic", "##noon",
+    "##logic", "##load", "##ify",
     ]
 
 
