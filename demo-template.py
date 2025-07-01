@@ -57,8 +57,12 @@ data = None
 with open(tokenizer_json, 'r', encoding='utf-8') as f:
     data = json.load(f)
     vocab = data["model"]["vocab"]
+    for w in tokens:
+        vocab[w] = len(vocab)
     vocab["##in"] = len(vocab)
     vocab["##ing"] = len(vocab)
+    vocab["##ive"] = len(vocab)
+    vocab["##is"] = len(vocab)
 
 
 with open(tokenizer_json, 'w', encoding='utf-8') as f:
@@ -93,5 +97,5 @@ def tokens_to_file():
 
 #tokens_to_file()
 
-sentence = "bbbing"
-print(f"{sentence}: {str(hf_tokenizer.tokenize(sentence))}\n")
+test_text = "contrastive learning and synthesis"
+print(f"\n[Test]: {test_text}: {str(hf_tokenizer.tokenize(test_text))}")
