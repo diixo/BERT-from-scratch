@@ -346,7 +346,11 @@ diixo = [
     #url, exe, ecut, net, non, sum, go, act, add, app, plac, tun,
     ]
 
-word_pieces = [ "##in", "##ing", "##ive", "##is", "##er", "##es", "##ed", "##ion", "##ment", "##less", "##ness", ]
+
+word_pieces = [
+    "##in", "##ing", "##ive", "##is", "##er", "##es", "##ed", "##ion", "##ment", "##less", "##ness", "##ly",
+    "##ally", "##ous", "##ability", "##able", "##ably", "##ely", "##ently", "##ately", "##tion",
+    ]
 
 
 def create_vocab():

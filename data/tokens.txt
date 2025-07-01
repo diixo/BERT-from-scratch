@@ -4158,3 +4158,13 @@ zoom
 ##ment
 ##less
 ##ness
+##ly
+##ally
+##ous
+##ability
+##able
+##ably
+##ely
+##ently
+##ately
+##tion
