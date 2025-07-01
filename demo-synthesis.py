@@ -50,7 +50,7 @@ tokenizer_json = vocab_tokenizer()
 ############################################################
 tokens = []
 with open("data/tokens.txt", "r", encoding="utf-8") as f:
-    tokens = sorted([line.strip() for line in f if line.strip()])
+    tokens = [line.strip() for line in f if line.strip()]
 
 vocab = None
 data = None
@@ -59,10 +59,6 @@ with open(tokenizer_json, 'r', encoding='utf-8') as f:
     vocab = data["model"]["vocab"]
     for w in tokens:
         vocab[w] = len(vocab)
-    vocab["##in"] = len(vocab)
-    vocab["##ing"] = len(vocab)
-    vocab["##ive"] = len(vocab)
-    vocab["##is"] = len(vocab)
 
 
 with open(tokenizer_json, 'w', encoding='utf-8') as f:

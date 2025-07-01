@@ -2062,7 +2062,6 @@ invok
 involv
 ion
 is
-is
 isolat
 issu
 istic
@@ -4148,3 +4147,7 @@ zero
 zip
 zon
 zoom
+##in
+##ing
+##ive
+##is

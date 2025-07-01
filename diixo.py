@@ -7,7 +7,7 @@ diixo = [
     'each', 'earn', 'ed', 'end', 'equal', 'er', 'es', 'ever', 'every', 'exten',
     'fill', 'fix', 'fore',
     'gather', 'gether', 'good', 'he', 'hear', 'here', 'his',
-    'ight', 'ill', 'ing', 'inter', 'is', 'is', 'istic', 'it', 'ity',
+    'ight', 'ill', 'ing', 'inter', 'is', 'istic', 'it', 'ity',
     'know', 'learn', 'less', 'load', 'ly',
     'mask', 'may', 'mis', 'more', 'most', 'multi',
     'nation', 'ness', 'never', 'ng', 'no', 'nope', 'not',
@@ -346,10 +346,12 @@ diixo = [
     #url, exe, ecut, net, non, sum, go, act, add, app, plac, tun,
     ]
 
+word_pieces = [ "##in", "##ing", "##ive", "##is" ]
+
 
 if __name__ == '__main__':
 
-    vocab = sorted(diixo)
+    vocab = sorted(diixo) + word_pieces
 
     print(f"sz={len(vocab)}")
 
