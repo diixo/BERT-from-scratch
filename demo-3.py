@@ -6,7 +6,7 @@ from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
 
 
-outpath = "data/output-3.txt"
+outpath = "tmp/output-3.txt"
 
 
 def create_train_corpus():
@@ -16,7 +16,7 @@ def create_train_corpus():
     with open(vocab, "r", encoding="utf-8") as f:
         words = sorted([line.strip() for line in f if line.strip()])
 
-    filepath = "corpus-triple-words.txt"
+    filepath = "tmp/corpus-triple-words.txt"
     count = 0
     with open(filepath, "w", encoding="utf-8") as f_out:
         for w in words:
