@@ -94,7 +94,5 @@ def tokens_to_file():
                 f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
 
 
-#tokens_to_file()
+tokens_to_file()
 
-test_text = "contrastive learning and synthesis"
-print(f"\n[Test]: {test_text}: {str(hf_tokenizer.tokenize(test_text))}")
