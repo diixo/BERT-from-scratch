@@ -333,7 +333,7 @@ diixo = [
     'refresh', 'refund', 'refocus', 'reform', 'reformat', 'reformulat', 'refract', 'refurbish', 'refit', 'refill', 'refil',
     'refetch', 'cofound', 'interven', 'crypto', 'into', 'joomla', 'kanban', 'kde', 'concentrat', 'kivy', 'lda', 'money', 'once',
     'exit', 'exhaust', 'your', 'youtub', 'yaml', 'wors', 'x86', 'x64', 'women', 'within', 'without', 'gem', 'worship', 'won',
-    'tong', 'turbo', 'uint', 'radius', 'rall', 'radiat',
+    'tong', 'turbo', 'uint', 'radius', 'rall', 'radiat', 'bor', 'boom', "vs", "vr", "vpn",
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
     #'ling', #'lin', # 'gap', 'eag', 'tim' ring,
@@ -348,8 +348,9 @@ diixo = [
 
 
 word_pieces = [
+    "##0", "##1", "##2", "##3", "##4", "##5", "##6", "##7", "##8", "##9", "##est", "##edly", "##ful",
     "##in", "##ing", "##ive", "##is", "##er", "##es", "##ed", "##ion", "##ment", "##less", "##ness", "##ly",
-    "##ally", "##ous", "##ability", "##able", "##ably", "##ely", "##ently", "##ately", "##tion",
+    "##ally", "##ous", "##ability", "##able", "##ably", "##ely", "##ently", "##ately", "##tion", "##ity", "##or",
     ]
 
 
