@@ -1,30 +1,12 @@
 
-import torch
+import json
 from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders
 from tokenizers.pre_tokenizers import ByteLevel, BertPreTokenizer
 from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
 
 
-outpath = "tmp/output-3.txt"
-
-
-def create_train_corpus():
-    vocab = "data/tokens.txt"
-
-    words = []
-    with open(vocab, "r", encoding="utf-8") as f:
-        words = sorted([line.strip() for line in f if line.strip()])
-
-    filepath = "tmp/corpus-triple-words.txt"
-    count = 0
-    with open(filepath, "w", encoding="utf-8") as f_out:
-        for w in words:
-            if w.find("-") < 0:
-                f_out.write(f"{w} {w} {w}\n")
-                count += 1
-    return filepath
-
+outpath = "tmp/output-template.txt"
 
 
 def vocab_tokenizer():
@@ -62,9 +44,32 @@ def vocab_tokenizer():
     return tokenizer_file
 
 
+tokenizer_json = vocab_tokenizer()
+
+
+############################################################
+tokens = []
+with open("data/tokens.txt", "r", encoding="utf-8") as f:
+    tokens = sorted([line.strip() for line in f if line.strip()])
+
+vocab = None
+data = None
+with open(tokenizer_json, 'r', encoding='utf-8') as f:
+    data = json.load(f)
+    vocab = data["model"]["vocab"]
+    vocab["##in"] = len(vocab)
+    vocab["##ing"] = len(vocab)
+
+
+with open(tokenizer_json, 'w', encoding='utf-8') as f:
+    print(vocab)
+    json.dump(data, f, indent=2)
+############################################################
+
+
 # 3. Load tokenizer into Hugging-Face format
 hf_tokenizer = BertTokenizerFast(
-    tokenizer_file=vocab_tokenizer(),
+    tokenizer_file=tokenizer_json,
     pad_token="[PAD]",
     unk_token="[UNK]",
     cls_token="[CLS]",
@@ -88,3 +93,5 @@ def tokens_to_file():
 
 #tokens_to_file()
 
+sentence = "bbbing"
+print(f"{sentence}: {str(hf_tokenizer.tokenize(sentence))}\n")
