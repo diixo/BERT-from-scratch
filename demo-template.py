@@ -53,10 +53,10 @@ def vocab_tokenizer():
         initial_alphabet=initial_alphabet,
     )
 
-    tokenizer.train(files=[create_train_corpus()], trainer=trainer)
+    tokenizer.train(files=[], trainer=trainer)
     #tokenizer.add_tokens(words)
 
-    tokenizer_file = "wordpiece-3-tokenizer.json"
+    tokenizer_file = "wordpiece-tokenizer-template.json"
     tokenizer.save(tokenizer_file)
     print(f"Tokenizer saved to {tokenizer_file}")
     return tokenizer_file
@@ -86,5 +86,5 @@ def tokens_to_file():
                 f_out.write(f"{w}: {str(hf_tokenizer.tokenize(w))}\n")
 
 
-tokens_to_file()
+#tokens_to_file()
 
