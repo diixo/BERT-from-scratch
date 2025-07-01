@@ -6,7 +6,7 @@ from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
 
 
-outpath = "tmp/output-template.txt"
+outpath = "tmp/output-synthesis.txt"
 
 
 def vocab_tokenizer():
@@ -66,7 +66,6 @@ with open(tokenizer_json, 'r', encoding='utf-8') as f:
 
 
 with open(tokenizer_json, 'w', encoding='utf-8') as f:
-    print(vocab)
     json.dump(data, f, indent=2)
 ############################################################
 
