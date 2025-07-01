@@ -38,7 +38,7 @@ def vocab_tokenizer():
     tokenizer.train(files=[], trainer=trainer)
     #tokenizer.add_tokens(words)
 
-    tokenizer_file = "wordpiece-tokenizer-template.json"
+    tokenizer_file = "wordpiece-tokenizer-base.json"
     tokenizer.save(tokenizer_file)
     print(f"Tokenizer saved to {tokenizer_file}")
     return tokenizer_file
