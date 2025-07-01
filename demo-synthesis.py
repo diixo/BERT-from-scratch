@@ -4,6 +4,7 @@ from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders
 from tokenizers.pre_tokenizers import ByteLevel, BertPreTokenizer
 from transformers import BertTokenizerFast
 from tokenizers.normalizers import BertNormalizer
+from diixo import create_vocab
 
 
 outpath = "tmp/output-synthesis.txt"
@@ -48,6 +49,8 @@ tokenizer_json = vocab_tokenizer()
 
 
 ############################################################
+create_vocab()
+
 tokens = []
 with open("data/tokens.txt", "r", encoding="utf-8") as f:
     tokens = [line.strip() for line in f if line.strip()]

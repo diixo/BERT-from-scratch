@@ -346,11 +346,10 @@ diixo = [
     #url, exe, ecut, net, non, sum, go, act, add, app, plac, tun,
     ]
 
-word_pieces = [ "##in", "##ing", "##ive", "##is" ]
+word_pieces = [ "##in", "##ing", "##ive", "##is", "##er", "##es", "##ed", "##ion", "##ment", "##less", "##ness", ]
 
 
-if __name__ == '__main__':
-
+def create_vocab():
     vocab = sorted(diixo) + word_pieces
 
     print(f"sz={len(vocab)}")
@@ -358,3 +357,7 @@ if __name__ == '__main__':
     with open("data/tokens.txt", "w", encoding="utf-8") as f_out:
         for word in vocab:
             f_out.write(f"{word}\n")
+
+
+if __name__ == '__main__':
+    create_vocab()
