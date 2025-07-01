@@ -353,6 +353,6 @@ if __name__ == '__main__':
 
     print(f"sz={len(vocab)}")
 
-    with open("tokens.txt", "w", encoding="utf-8") as f_out:
+    with open("data/tokens.txt", "w", encoding="utf-8") as f_out:
         for word in vocab:
             f_out.write(f"{word}\n")

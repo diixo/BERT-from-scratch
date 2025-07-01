@@ -1370,9 +1370,11 @@ exempl
 exempt
 exercis
 exert
+exhaust
 exhibit
 exigen
 exist
+exit
 expand
 expans
 expect
@@ -1650,6 +1652,7 @@ gaz
 gb
 gcc
 geek
+gem
 gem
 gemini
 gen
@@ -2371,7 +2374,7 @@ miscellaneous
 miser
 miss
 mission
-mistake
+mistak
 mitigat
 mix
 mixture
@@ -2891,13 +2894,16 @@ quiz
 quot
 rac
 rad
+radiat
 radic
 radio
+radius
 rag
 raid
 rail
 rain
 rais
+rall
 ram
 rambl
 ramp
@@ -3773,6 +3779,7 @@ token
 told
 tolera
 tolerat
+tong
 too
 took
 tool
@@ -3859,6 +3866,7 @@ tun
 tunel
 tunnel
 tupl
+turbo
 turn
 tutor
 tweak
@@ -3881,6 +3889,7 @@ typo
 ubiquit
 ubuntu
 ugl
+uint
 ultimat
 ultra
 unar
@@ -4090,10 +4099,14 @@ wire
 wise
 wish
 with
+within
+without
 witness
 wizard
 woke
 woman
+women
+won
 wonder
 wont
 wood
@@ -4102,6 +4115,8 @@ word
 work
 world
 worr
+wors
+worship
 worth
 would
 wound
@@ -4113,8 +4128,11 @@ writ
 wrong
 wrote
 www
+x64
+x86
 xml
 xor
+yaml
 yeah
 year
 yellow
@@ -4123,7 +4141,9 @@ yet
 yield
 you
 young
+your
 youth
+youtub
 zero
 zip
 zon
