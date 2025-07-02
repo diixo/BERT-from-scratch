@@ -337,7 +337,7 @@ diixo = [
     'intact', 'ahead', 'filtrat', 'out', 'pleasure', 'commodit', 'ordinar', 'inasmuch', 'attorn', 'attest', 'defian', 'defi',
     'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
     'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib', 'ui', 'ux', 'quart', 'bi', 'cam', 'age', 'bifurcat',
-    'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion',
+    'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -385,7 +385,12 @@ word_pieces = [
     "##lik", "##order", "##patch", "##satisf", "##plac", "##pleas", "##seminat", "##servic", "##similar", "##proportion",
     "##approb", "##approv", "##assembl", "##associat", "##charg", "##claim", "##clos", "##concert", "##trust", "##util",
     "##file", "##click", "##rank", "##right", "##scal", "##side", "##size", "##siz", "##stair", "##turn", "##gen",
-    "##talk", "##team",
+    "##talk", "##team", "##box", "##power", "##hub", "##lab", "##bit", "##away", "##ignor", "##hunt", "##felt", "##weight",
+    "##world", "##desk", "##accur", "##action", "##activ", "##adequat", "##admiss", "##advert", "##advis",
+    "##apprecia", "##appropriat", "##argu", "##attent", "##bound", "##buil", "##capab", "##cautio", "##coheren", "##come",
+    "##commod", "##compar", "##compat", "##complet", "##comprehen", "##conclusi", "##congru", "##consist", "##conspic",
+    "##const", "##convenien", "##corpora", "##correct", "##fatuat", "##fanc", "##control", "##panel", "##metr", "##trop",
+
     # ize ized subgroup oper
     ]
 
