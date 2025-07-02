@@ -334,8 +334,11 @@ diixo = [
     'refetch', 'cofound', 'interven', 'crypto', 'into', 'joomla', 'kanban', 'kde', 'concentrat', 'kivy', 'lda', 'money', 'once',
     'exit', 'exhaust', 'your', 'youtub', 'yaml', 'wors', 'x86', 'x64', 'women', 'within', 'without', 'gem', 'worship', 'won',
     'tong', 'turbo', 'uint', 'radius', 'rall', 'radiat', 'bor', 'boom', 'vs', 'vr', 'vpn', 'affront', 'interim', 'dll', 'dnn',
-    'intact', 'ahead', 'filtrat', 'out', 'pleasure', 'commodit', 'ordinar', 'inasmuch',
-    #'in', 'up', 'un', 
+    'intact', 'ahead', 'filtrat', 'out', 'pleasure', 'commodit', 'ordinar', 'inasmuch', 'attorn', 'attest', 'defian', 'defi',
+    'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
+    #'rediscover',
+    # ui ux 'quart' #'bi', 'bid', 'cam', 'age',
+    #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
     #'ling', #'lin', # 'gap', 'eag', 'tim' ring,
@@ -360,8 +363,18 @@ word_pieces = [
     "##advantag", "##agree", "##allow", "##ambigu", "##appear", "##abilities", "##tast", "##script", "##book", "##system",
     "##mail", "##case", "##list", "##coming", "##cut", "##fall", "##step", "##link", "##bar", "##line", "##flow", "##fus",
     "##diffus", "##locat", "##lock", "##activat", "##transform", "##solv", "##solution", "##sociat", "##equal",
-    "##efficien", "##effect", "##elegan", "##ebriet", "##eligib", "##scrib", "##stream", "##quiet", "##paint",
-    "##ordinar", "##sampl", '##to', "##operat", "##ship", "##process", "##relat",
+    "##efficien", "##effect", "##elegan", "##ebriet", "##eligib", "##scrib", "##stream", "##quiet", "##paint", "##age", "##pag",
+    "##ordinar", "##sampl", '##to', "##operat", "##ship", "##process", "##relat", "##tune", "##fortun", "##point", "##through",
+    "##stag", "##manag", "##pack", "##packag", "##lang", "##languag", "##storag", "##fast", "##propagat", "##engag",
+    "##damag", "##fastidious", "##top", "##web", "##cord", "##install", "##game", "##mongo", "##test", "##dev", "##torch",
+    "##cuda", "##charm", "##pos", "##obj", "##compil", "##compos", "##compres", "##construct", "##convol", "##dispos",
+    "##differ", "##direct", "##discreet", "##discret", "##disput", "##distinct", "##dispens", "##door", "##valid",
+    "##valu", "##variabl", "##varianc", "##variant", "##tabl", "##phone", "##crypt", "##record", "##view", "##cycl", "##boost",
+    "##delta", "##grad", "##updat", "##ward", "##noon", "##grand", "##cast", "##mention", "##quarter", "##python", "##escap",
+    "##exact", "##excus", "##expens", "##experien", "##express", "##famous", "##feasib", "##estima", "##class", "##cloud",
+    "##channel", "##byte", "##comput", "##conceiv", "##condit", "##config", "##defin", "##determin", "##discover",
+    "##task", "##map", "##check", "##connect", "##consider", "##creat", "##crawl",
+    # ize ized subgroup oper
     ]
 
 
