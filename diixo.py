@@ -337,7 +337,8 @@ diixo = [
     'intact', 'ahead', 'filtrat', 'out', 'pleasure', 'commodit', 'ordinar', 'inasmuch', 'attorn', 'attest', 'defian', 'defi',
     'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
     'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib', 'ui', 'ux', 'quart', 'bi', 'cam', 'age', 'bifurcat',
-    'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo',
+    'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo', 'signif',
+    'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -390,8 +391,12 @@ word_pieces = [
     "##apprecia", "##appropriat", "##argu", "##attent", "##bound", "##buil", "##capab", "##cautio", "##coheren", "##come",
     "##commod", "##compar", "##compat", "##complet", "##comprehen", "##conclusi", "##congru", "##consist", "##conspic",
     "##const", "##convenien", "##corpora", "##correct", "##fatuat", "##fanc", "##control", "##panel", "##metr", "##trop",
+    "##body", "##how", "##except", "##follow", "##look", "##driv", "##api", "##shap", "##shuffl", "##sign", "##signif",
+    "##produc", "##js", "##fragment", "##rang", "##dram", "##brows", "##develop", "##client", "##cam", "##font", "##form",
+    "##hook", "##host", "##interfac", "##master", "##kit", "##log", "##client", "##component", "##request", "##scop",
+    "##server", "##site", "##socket", "##stor", "##summit", "##trend", "##xml", "##fare", "##from", "##paper",
 
-    # ize ized subgroup oper
+    # ize ized subgroup oper ium
     ]
 
 
