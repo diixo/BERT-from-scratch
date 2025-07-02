@@ -334,7 +334,7 @@ diixo = [
     'refetch', 'cofound', 'interven', 'crypto', 'into', 'joomla', 'kanban', 'kde', 'concentrat', 'kivy', 'lda', 'money', 'once',
     'exit', 'exhaust', 'your', 'youtub', 'yaml', 'wors', 'x86', 'x64', 'women', 'within', 'without', 'gem', 'worship', 'won',
     'tong', 'turbo', 'uint', 'radius', 'rall', 'radiat', 'bor', 'boom', 'vs', 'vr', 'vpn', 'affront', 'interim', 'dll', 'dnn',
-    'intact', 'ahead',
+    'intact', 'ahead', 'filtrat', 'out', 'pleasure',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
     #'ling', #'lin', # 'gap', 'eag', 'tim' ring,
@@ -355,7 +355,7 @@ word_pieces = [
     "##ior", "##up", "##out", "##about", "##over", "##fore", "##upon", "##self", "##time", "##ware", "##ever", "##some",
     "##back", "##ic", "##pad", "##mat", "##plot", "##lib", '##graph', "##shop", "##real", "##math", "##atic", "##noon",
     "##logic", "##load", "##ify", "##of", "##off", "##date", "##on", "##down", "##work", "##code", "##type", "##cod",
-    "##ative", "##struct", "##fix", "##made", "##mak",
+    "##ative", "##struct", "##fix", "##made", "##mak", "##ant", "##liv", "##norm", "##rich", "##queu", "##tech", "##search",
     ]
 
 
