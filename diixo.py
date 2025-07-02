@@ -336,7 +336,7 @@ diixo = [
     'tong', 'turbo', 'uint', 'radius', 'rall', 'radiat', 'bor', 'boom', 'vs', 'vr', 'vpn', 'affront', 'interim', 'dll', 'dnn',
     'intact', 'ahead', 'filtrat', 'out', 'pleasure', 'commodit', 'ordinar', 'inasmuch', 'attorn', 'attest', 'defian', 'defi',
     'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
-    #'rediscover',
+    'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib',
     # ui ux 'quart' #'bi', 'bid', 'cam', 'age',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
@@ -373,7 +373,12 @@ word_pieces = [
     "##delta", "##grad", "##updat", "##ward", "##noon", "##grand", "##cast", "##mention", "##quarter", "##python", "##escap",
     "##exact", "##excus", "##expens", "##experien", "##express", "##famous", "##feasib", "##estima", "##class", "##cloud",
     "##channel", "##byte", "##comput", "##conceiv", "##condit", "##config", "##defin", "##determin", "##discover",
-    "##task", "##map", "##check", "##connect", "##consider", "##creat", "##crawl",
+    "##task", "##map", "##check", "##connect", "##consider", "##creat", "##crawl", "##mark", "##declar", "##deliver",
+    "##deploy", "##design", "##draw", "##enter", "##establish", "##examin", "##count", "##group", "##hash", "##mask",
+    "##center", "##account", "##area", "##array", "##cluster", "##collect", "##command", "##complex", "##conscious", "##contain",
+    "##divid", "##divis", "##document", "##domain", "##element", "##field", "##fold", "##gradient", "##sect", "##seque",
+    "##set", "##space", "##strat", "##piece", "##title", "##tree", "##typ", "##variet", "##vocabular", "##version", "##word",
+
     # ize ized subgroup oper
     ]
 
