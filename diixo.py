@@ -338,7 +338,7 @@ diixo = [
     'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
     'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib', 'ui', 'ux', 'quart', 'bi', 'cam', 'age', 'bifurcat',
     'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo', 'signif',
-    'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl',
+    'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl', 'mirth', 'un', 'official',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -394,8 +394,12 @@ word_pieces = [
     "##body", "##how", "##except", "##follow", "##look", "##driv", "##api", "##shap", "##shuffl", "##sign", "##signif",
     "##produc", "##js", "##fragment", "##rang", "##dram", "##brows", "##develop", "##client", "##cam", "##font", "##form",
     "##hook", "##host", "##interfac", "##master", "##kit", "##log", "##client", "##component", "##request", "##scop",
-    "##server", "##site", "##socket", "##stor", "##summit", "##trend", "##xml", "##fare", "##from", "##paper",
-
+    "##server", "##site", "##socket", "##stor", "##summit", "##trend", "##xml", "##fare", "##from", "##paper", "##app",
+    "##just", "##justif", "##kind", "##know", "##label", "##law", "##learn", "##licens", "##limit", "##valent",
+    "##luck", "##maintain", "##man", "##marr", "##marshall", "##match", "##merit", "##mistak", "##mix", "##mirth",
+    "##modif", "##modul", "##motivat", "##mount", "##multipl", "##mut", "##nam", "##natur", "##necess", "##need", "##object",
+    "##observ", "##parallel", "##paus", "##perceiv", "##permit", "##paid", "##pardon", "##pair", "##organiz", "##occup",
+    "##notic", "##ostentat", "##optimiz", "##open", "##official",
     # ize ized subgroup oper ium
     ]
 

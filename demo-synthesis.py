@@ -25,7 +25,7 @@ def vocab_tokenizer():
 
 
     initial_alphabet = ByteLevel.alphabet()
-    initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789-+_")
+    initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789+-./_")
     ext_alphabet = ["##a", "##b", "##c", "##d", "##e", "##f", "##g", "##h", "##i", "##j", "##k", "##l", "##m",
                     "##n", "##o", "##p", "##q", "##r", "##s", "##t", "##u", "##v", "##w", "##x", "##y", "##z"]
 
