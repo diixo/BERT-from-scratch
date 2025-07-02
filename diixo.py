@@ -49,7 +49,7 @@ diixo = [
     'phonet', 'physic', 'monoton', 'suspic', 'suffic', 'stratif', 'stochast', 'stick', 'splic', 'spher', 'spars', 'sophisticat',
     'complicat', 'predict', 'offic', 'strict', 'ficat', 'twice', 'trick', 'traff', 'tick', 'thick', 'theor', 'communic', 'symbol',
     'solicit', 'small', 'smart', 'devic', 'certif', 'atmo', 'amplif', 'clarif', 'classif', 'codif', 'dens', 'densif', 'diversif',
-    'electrif', 'gamif', 'gratif', 'identif', 'justif', 'minif', 'modif', 'mortif', 'notif', 'quali', 'quantif', 'simplif', 'unif',
+    'electrif', 'gamif', 'gratif', 'identif', 'justif', 'minif', 'modif', 'mortif', 'notif', 'quantif', 'simplif', 'unif',
     'verif', 'notic', 'pric', 'voic', 'which', 'academ', 'addict', 'advic', 'alpha', 'logic', 'trop', 'applic', 'articl', 'ticket',
     'authent', 'centr', 'bion', 'canonical', 'categor', 'click', 'hapt', 'servic', 'coefficient', 'conflict', 'contradict', 'convict',
     'dedicat', 'dupl', 'defic', 'delic', 'dict', 'dictat', 'difficult', 'effic', 'electr', 'magnet', 'elicit', 'ergonom', 'evict',
@@ -66,7 +66,7 @@ diixo = [
     'requir', 'diff', 'screen', 'touch', 'full', 'beaut', 'delight', 'faith', 'fright', 'fruit', 'sorrow', 'thank', 'succe', 'differ',
     'wild', 'wonder', 'wrong', 'respect', 'skill', 'mind', 'pain', 'paint', 'resolut', 'though', 'thorough', 'scrib', 'soft', 'sort',
     'paper', 'white', 'wall', 'next', 'letter', 'need', 'prim', 'necess', 'print', 'test', 'tessellat', 'sweet', 'sweep', 'prepar', 'quir',
-    'quit', 'equi', 'probab', 'proper',
+    'quit', 'equi', 'probab', 'proper', 'qualif', 'qualit', 'quaint',
     'vocat', 'valen', 'valenc', 'valent', 'pict', 'pictur', 'varianc', 'variat', 'variant', 'variabl', 'variad', 'varie', 'vary', 'various',
     'identif', 'univers', 'commun', 'unix', 'unit', 'unity', 'union', 'unique', 'interpolat', 'inten', 'operat', 'opinion', 'intern',
     'cool', 'cook', 'book', 'bool', 'ultra', 'fast', 'text', 'context', 'contest', 'content', 'face', 'hand', 'edit', 'circl', 'center',
@@ -336,8 +336,8 @@ diixo = [
     'tong', 'turbo', 'uint', 'radius', 'rall', 'radiat', 'bor', 'boom', 'vs', 'vr', 'vpn', 'affront', 'interim', 'dll', 'dnn',
     'intact', 'ahead', 'filtrat', 'out', 'pleasure', 'commodit', 'ordinar', 'inasmuch', 'attorn', 'attest', 'defian', 'defi',
     'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
-    'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib',
-    # ui ux 'quart' #'bi', 'bid', 'cam', 'age',
+    'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib', 'ui', 'ux', 'quart', 'bi', 'cam', 'age', 'bifurcat',
+    'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -378,7 +378,14 @@ word_pieces = [
     "##center", "##account", "##area", "##array", "##cluster", "##collect", "##command", "##complex", "##conscious", "##contain",
     "##divid", "##divis", "##document", "##domain", "##element", "##field", "##fold", "##gradient", "##sect", "##seque",
     "##set", "##space", "##strat", "##piece", "##title", "##tree", "##typ", "##variet", "##vocabular", "##version", "##word",
-
+    "##wise", "##variat", "##data", "##board", "##lingu", "##classif", "##clutter", "##not", "##notat", "##quest",
+    "##arm", "##attack", "##bion", "##crim", "##net", "##punk", "##secur", "##sport", "##vision", "##zon", "##scien",
+    "##nois", "##nominat", "##normaliz", "##mystif", "##think", "##critic", "##gram", "##tool", "##prov", "##regard",
+    "##respect", "##entangl", "##grunt", "##inclin", "##inform", "##ingen", "##interest", "##junct", "##cach",
+    "##lik", "##order", "##patch", "##satisf", "##plac", "##pleas", "##seminat", "##servic", "##similar", "##proportion",
+    "##approb", "##approv", "##assembl", "##associat", "##charg", "##claim", "##clos", "##concert", "##trust", "##util",
+    "##file", "##click", "##rank", "##right", "##scal", "##side", "##size", "##siz", "##stair", "##turn", "##gen",
+    "##talk", "##team",
     # ize ized subgroup oper
     ]
 
