@@ -201,6 +201,7 @@ annoy
 annual
 anomal
 anonym
+another
 ansi
 ansible
 answer
@@ -867,6 +868,7 @@ couch
 could
 counsel
 count
+counter
 coupl
 courag
 cours
@@ -2517,6 +2519,7 @@ neur
 neutral
 never
 new
+newb
 next
 ng
 nice
@@ -3849,6 +3852,7 @@ tip
 tir
 titl
 to
+together
 toggl
 token
 told
@@ -4145,6 +4149,7 @@ way
 we
 weak
 wear
+weather
 web
 webinar
 wedg
@@ -4948,3 +4953,8 @@ zoom
 ##interpret
 ##lead
 ##constru
+##mind
+##the
+##together
+##string
+##counter

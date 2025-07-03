@@ -341,7 +341,7 @@ diixo = [
     'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl', 'mirth', 'un', 'official', 'polish', 'requit',
     'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen', 'var', 'verbal', 'verdur', 'versatil', 'veto',
     'victim', 'vital', 'vivac', 'vow', 'vowel', 'vpn', 'vr', 'studio', 'min', 'mine', 'multiplicat', 'mus', 'nab', 'endear',
-    'endanger', 'constru',
+    'endanger', 'constru', 'newb', 'another', 'together', 'weather', 'counter',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -423,7 +423,7 @@ word_pieces = [
     "##nation", "##nomi", "##method", "##project", "##processor", "##resolut", "##protocol", "##region", "##thread", "##sql",
     "##param", "##face", "##particl", "##pass", "##hav", "##compass", "##croach", "##courag", "##pedia", "##giv", "##guid",
     "##align", "##appl", "##behav", "##chief", "##communic", "##concept", "##conduct", "##ratio", "##fit", "##interpret", "##lead",
-    "##constru",
+    "##constru", "##mind", "##the", "##together", "##string", "##counter",
     #counter
     # ize ized subgroup oper ium led
     ]
