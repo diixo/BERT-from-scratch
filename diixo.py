@@ -344,7 +344,7 @@ diixo = [
     'endanger', 'constru', 'newb', 'another', 'together', 'weather', 'counter', 'protract', 'retract', 'artificial', 'supplant',
     'supplement', 'introduc', 'juvenat', 'pale', 'niche', 'avow', 'bank', 'underneath', 'adobe', 'cit', 'eleven', 'inquisit',
     'inroad', 'intelligen', 'misspel', 'misspen', 'output', 'wan', 'ow', 'pal', 'pac', 'palpab', 'ponder', 'perhaps', 'note',
-    'nothing',
+    'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -441,7 +441,11 @@ word_pieces = [
     "##simplif", "##stock", "##throw", "##tak", "##shoot", "##sight", "##saw", "##sea", "##whelm", "##wrote", "##meter",
     "##morph", "##hedron", "##synth", "##forc", "##go", "##wide", "##abat", "##accept", "##achiev", "##adjust", "##adorn", 
     "##affect", "##afraid", "##announc", "##answer", "##assign", "##attach", "##attain", "##attend", "##attract", "##author",
-    "##avail", "##avoid", "##balanc",
+    "##avail", "##avoid", "##balanc", "##bleach", "##becom", "##believ", "##branch", "##brand", "##broke", "##buf", "##bundl",
+    "##categor", "##caught", "##ceremon", "##certain", "##chain", "##chang", "##chart", "##civil", "##clear", "##comfort",
+    "##comment", "##common", "##compet", "##compromis", "##concern", "##confirm", "##constrain", "##convent", "##convinc",
+    "##coordinat", "##correlat", "##coupl", "##couth", "##cover", "##curat", "##daunt", "##decid", "##copy", "##contest", "##bred",
+    "##graduat", "##deni", "##serializ", "##stabiliz",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
