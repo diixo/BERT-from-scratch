@@ -346,7 +346,7 @@ diixo = [
     'inroad', 'intelligen', 'misspel', 'misspen', 'output', 'wan', 'ow', 'pal', 'pac', 'palpab', 'ponder', 'perhaps', 'note',
     'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair', 'despatch', 'destination',
     'despoil', 'diagram', 'international', 'invoic', 'irrita', 'irregular', 'irresist', 'irrespect', 'irrelevant', 'irreplac',
-    'irrational', 'irksome',
+    'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -448,7 +448,9 @@ word_pieces = [
     "##comment", "##common", "##compet", "##compromis", "##concern", "##confirm", "##constrain", "##convent", "##convinc",
     "##coordinat", "##correlat", "##coupl", "##couth", "##cover", "##curat", "##daunt", "##decid", "##copy", "##contest", "##bred",
     "##graduat", "##deni", "##serializ", "##stabiliz", "##guard", "##spatial", "##posit", "##oper", "##visib", "##volunt",
-
+    "##cell", "##batch", "##computer", "##chrom", "##shell", "##auth", "##ops", "##combin", "##calcul", "##calibrat", "##call",
+    "##certif", "##base", "##bind", "##boot", "##born", "##assuranc", "##assess", "##bas", "##analys", "##affirm", "##essential",
+    "##possess", "##requisit", "##rout",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
