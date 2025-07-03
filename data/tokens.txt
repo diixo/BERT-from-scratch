@@ -3212,6 +3212,7 @@ revert
 revis
 revisit
 reviv
+revocat
 revok
 revolt
 revolut
@@ -3237,6 +3238,7 @@ road
 roam
 roast
 robo
+robot
 robust
 rock
 rol
@@ -3300,6 +3302,7 @@ say
 scal
 scalar
 scan
+scant
 scap
 scar
 scatter
@@ -3684,6 +3687,7 @@ striv
 strok
 strong
 strov
+struck
 struct
 struggl
 stub
@@ -5338,3 +5342,9 @@ zoom
 ##doc
 ##dos
 ##matur
+##submiss
+##submit
+##surg
+##sync
+##colon
+##men

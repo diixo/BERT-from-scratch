@@ -55,7 +55,7 @@ diixo = [
     'dedicat', 'dupl', 'defic', 'delic', 'dict', 'dictat', 'difficult', 'effic', 'electr', 'magnet', 'elicit', 'ergonom', 'evict',
     'explic', 'felic', 'flick', 'harmon', 'hierarch', 'acoust', 'amplic', 'analog', 'elastic', 'fabric', 'histor', 'plast',
     'indic', 'indicat', 'inflict', 'intrinsic', 'logarithm', 'magnif', 'malic', 'metaphor', 'method', 'music', 'period', 'philosoph',
-    'polit', 'polic', 'morph', 'python', 'quick', 'joic', 'replic', 'ridicul', 'rubric', 'robo', 'scept', 'colon', 'skept', 'simplic',
+    'polit', 'polic', 'morph', 'python', 'quick', 'joic', 'replic', 'ridicul', 'rubric', 'robot', 'scept', 'colon', 'skept', 'simplic',
     'vehicl', 'variad', 'vindic', 'judic', 'benefic', 'choic', 'combin', 'energ', 'intric', 'justic', 'particl', 'predica', 'profic',
     'radic', 'robust', 'modal', 'thing', 'cloth', 'breath', 'smooth', 'sooth', 'serv', 'reserv', 'observ', 'server', 'user', 'squar',
     #'pick', 'kick', 'sick', 'slic', 'wick', 'uni', 'mnemo', 'nice', 'nich',
@@ -347,7 +347,7 @@ diixo = [
     'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair', 'despatch', 'destination',
     'despoil', 'diagram', 'international', 'invoic', 'irrita', 'irregular', 'irresist', 'irrespect', 'irrelevant', 'irreplac',
     'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver', 'proliferat', 'revanc', 'ruminat', 'shone', 'sinop',
-    'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product',
+    'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product', 'revocat', 'scant', 'robo', 'struck',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -458,7 +458,7 @@ word_pieces = [
     "##fill", "##feel", "##focus", "##feign", "##format", "##freez", "##frequen", "##fulfil", "##fund", "##foresee", "##forget",
     "##identif", "##help", "##handl", "##happ", "##gracious", "##grate", "##health", "##geni", "##hid", "##heed", "##guess",
     "##gallant", "##dog", "##land", "##char", "##press", "##round", "##dominan", "##dominat", "##fetch", "##dock", "##pay",
-    "##doc", "##dos", "##matur",
+    "##doc", "##dos", "##matur", "##submiss", "##submit","##surg", "##sync", "##colon", "##men",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
