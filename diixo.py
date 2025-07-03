@@ -348,7 +348,8 @@ diixo = [
     'despoil', 'diagram', 'international', 'invoic', 'irrita', 'irregular', 'irresist', 'irrespect', 'irrelevant', 'irreplac',
     'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver', 'proliferat', 'revanc', 'ruminat', 'shone', 'sinop',
     'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product', 'revocat', 'scant', 'robo', 'struck', 'adverb',
-    'pron', 'below', 'belov', 'deny', 'notion', 'deplor', #'demur', 'denot', 'depot', 'derisi', 'delusion', 'defragment', 'defunct'
+    'pron', 'below', 'belov', 'deny', 'notion', 'deplor', 'demur', 'denot', 'depot', 'derisi', 'delusion', 'defragment', 'defy',
+    'defunct', 'fathom', 'hatr', 'howbeit', 'innoc', 'insolv', 'horr', 'interior', 'intermitt', 'interim', 'mince',
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -463,7 +464,10 @@ word_pieces = [
     "##puls", "##purpos", "##schedul", "##cas", "##numer", "##cad", "##tude", "##late", "##band", "##ref", "##val",
     "##referenc", "##geo", "##refut", "##reduc", "##expert", "##bean", "##scap", "##mov", "##ubuntu", "##commut", "##complian",
     "##contigu", "##convex", "##empt", "##exist", "##litera", "##local", "##monoton", "##occur", "##plus", "##regular", "##relevan",
-    "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher",
+    "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher", "##distan", "##singular", "##vocat",
+    "##loop", "##path", "##stash", "##wire", "##lens", "##key", "##spot", "##far", "##depth", "##fram", "##decimal", "##patien",
+    "##perfect", "##precis", "##proper", "##propriet", "##probab", "##prim", "##ident", "##pruden", "##describ", "##finit", "##flam",
+    "##habit", "##leav", "##judg", "##lac", "##pod", "##meet",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
