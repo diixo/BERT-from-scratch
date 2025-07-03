@@ -4025,6 +4025,7 @@ valley
 valu
 vanish
 vanit
+var
 variab
 variabl
 variad
@@ -4044,17 +4045,21 @@ ventilat
 ventur
 venue
 verb
+verbal
 verbos
+verdur
 veri
 verif
 verity
 vers
 versa
+versatil
 version
 versus
 vertex
 vertic
 very
+veto
 vexat
 vga
 vgg
@@ -4064,6 +4069,7 @@ vib
 vibr
 vici
 vict
+victim
 video
 view
 vigorous
@@ -4081,6 +4087,8 @@ visib
 vision
 visit
 visual
+vital
+vivac
 vocabular
 vocal
 vocat
@@ -4848,3 +4856,5 @@ zoom
 ##engine
 ##torrent
 ##error
+##model
+##port

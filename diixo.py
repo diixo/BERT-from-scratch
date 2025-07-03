@@ -339,7 +339,8 @@ diixo = [
     'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib', 'ui', 'ux', 'quart', 'bi', 'cam', 'age', 'bifurcat',
     'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo', 'signif', 'sull',
     'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl', 'mirth', 'un', 'official', 'polish', 'requit',
-    'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen',
+    'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen', 'var', 'verbal', 'verdur', 'versatil', 'veto',
+    'victim', 'vital', 'vivac',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -413,7 +414,7 @@ word_pieces = [
     "##translat", "##treat", "##truth", "##twin", "##typic", "##usab", "##use", "##usual", "##vary", "##worth", "##front", "##wrap",
     "##willing", "##verif", "##visit", "##want", "##watch", "##welcom", "##well", "##whole", "##wield", "##wind", "##wound",
     "##wont", "##writ", "##beat", "##zip", "##grow", "##heav", "##held", "##hold", "##lift", "##most", "##start", "##ris",
-    "##swing", "##take", "##vot", "##pars", "##friend", "##engine", "##torrent", "##error",
+    "##swing", "##take", "##vot", "##pars", "##friend", "##engine", "##torrent", "##error", "##model", "##port",
     # ize ized subgroup oper ium
     ]
 
