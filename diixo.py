@@ -346,7 +346,8 @@ diixo = [
     'inroad', 'intelligen', 'misspel', 'misspen', 'output', 'wan', 'ow', 'pal', 'pac', 'palpab', 'ponder', 'perhaps', 'note',
     'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair', 'despatch', 'destination',
     'despoil', 'diagram', 'international', 'invoic', 'irrita', 'irregular', 'irresist', 'irrespect', 'irrelevant', 'irreplac',
-    'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver',
+    'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver', 'proliferat', 'revanc', 'ruminat', 'shone', 'sinop',
+    'disclos',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -450,7 +451,11 @@ word_pieces = [
     "##graduat", "##deni", "##serializ", "##stabiliz", "##guard", "##spatial", "##posit", "##oper", "##visib", "##volunt",
     "##cell", "##batch", "##computer", "##chrom", "##shell", "##auth", "##ops", "##combin", "##calcul", "##calibrat", "##call",
     "##certif", "##base", "##bind", "##boot", "##born", "##assuranc", "##assess", "##bas", "##analys", "##affirm", "##essential",
-    "##possess", "##requisit", "##rout",
+    "##possess", "##requisit", "##rout", "##filt", "##phras", "##menu", "##entr", "##generat", "##imburs", "##sembl", "##spect",
+    "##try", "##unit", "##union", "##tweet", "##shot", "##one", "##thing", "##way", "##what", "##where", "##more", "##alone",
+    "##forward", "##due", "##doubt", "##detect", "##deserv", "##desir", "##discern", "##disclos", "##distinguish", "##evaluat",
+    "##exampl", "##expect", "##expir", "##explain", "##exploit", "##explor", "##fair", "##equi", "##employ", "##eas", "##familiar",
+    "##fill", "##feel", "##focus",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
@@ -461,7 +466,7 @@ def create_vocab():
     seen = set()
     for item in word_pieces:
         if item in seen:
-            print(item)
+            print(f"::{item}")
         seen.add(item)
     ###################################
     vocab = sorted(diixo) + word_pieces

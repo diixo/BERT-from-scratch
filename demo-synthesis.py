@@ -63,7 +63,6 @@ with open(tokenizer_json, 'r', encoding='utf-8') as f:
     for w in tokens:
         vocab[w] = len(vocab)
 
-
 with open(tokenizer_json, 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2)
 ############################################################
