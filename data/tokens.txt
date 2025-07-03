@@ -346,7 +346,7 @@ averag
 avert
 avoid
 avow
-awak
+awake
 award
 aware
 away
@@ -551,6 +551,7 @@ can
 cancel
 candid
 candidat
+candour
 canonical
 canvas
 capab
@@ -2555,10 +2556,12 @@ nam
 nano
 narrat
 narrow
+nascent
 nation
 nativ
 natur
 navi
+navigat
 near
 neat
 necess
@@ -2747,6 +2750,7 @@ part
 particip
 particl
 particul
+partner
 pass
 passag
 passiv
@@ -2761,6 +2765,7 @@ pattern
 paus
 pav
 pay
+pdo
 peac
 peak
 peculiar
@@ -3506,6 +3511,7 @@ sky
 skype
 slack
 slack
+slain
 slam
 slang
 slash
@@ -5448,3 +5454,7 @@ zoom
 ##lac
 ##pod
 ##meet
+##led
+##mission
+##do
+##sheet

@@ -158,7 +158,7 @@ diixo = [
     'prejudic', 'prais', 'possess', 'postgres', 'multipl', 'multiplatform', 'multiplex', 'multiple', 'templat', 'temperatur',
     'tempor', 'temper', 'tempt', 'truncat', 'true', 'correlat', 'correspond', 'corrupt', 'tradition', 'patien',
     'pattern', 'way', 'sway', 'ubiquit', 'impart', 'aware', 'what', 'well', 'swell', 'award', 'fascinat', 'whence', 'fashion',
-    'far', 'faq', 'awak', 'awe', 'flaw', 'ware', 'while', 'insist', 'between', 'firm', 'first', 'beyond', 'betray', 'whim', 'worth',
+    'far', 'faq', 'awake', 'awe', 'flaw', 'ware', 'while', 'insist', 'between', 'firm', 'first', 'beyond', 'betray', 'whim', 'worth',
     'wrap', 'other', 'bother', 'vocabular', 'rank', 'crank', 'shrank', 'drank', 'cramp', 'drain', 'fair', 'fare', 'brave', 'ravel',
     'breach', 'large', 'laravel', 'outlast', 'last', 'latch', 'accumulat', 'circulat', 'collat', 'conflat', 'dilat', 'laten',
     'simulat', 'stimul', 'stipulat', 'ventilat', 'violat', 'vendor', 'violen', 'lateral', 'ventur', 'colleague', 'conferenc',
@@ -349,7 +349,8 @@ diixo = [
     'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver', 'proliferat', 'revanc', 'ruminat', 'shone', 'sinop',
     'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product', 'revocat', 'scant', 'robo', 'struck', 'adverb',
     'pron', 'below', 'belov', 'deny', 'notion', 'deplor', 'demur', 'denot', 'depot', 'derisi', 'delusion', 'defragment', 'defy',
-    'defunct', 'fathom', 'hatr', 'howbeit', 'innoc', 'insolv', 'horr', 'interior', 'intermitt', 'interim', 'mince',
+    'defunct', 'fathom', 'hatr', 'howbeit', 'innoc', 'insolv', 'horr', 'interior', 'intermitt', 'interim', 'mince', 'nascent',
+    'navigat', 'slain', 'candour', 'pdo', 'partner',
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -467,8 +468,8 @@ word_pieces = [
     "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher", "##distan", "##singular", "##vocat",
     "##loop", "##path", "##stash", "##wire", "##lens", "##key", "##spot", "##far", "##depth", "##fram", "##decimal", "##patien",
     "##perfect", "##precis", "##proper", "##propriet", "##probab", "##prim", "##ident", "##pruden", "##describ", "##finit", "##flam",
-    "##habit", "##leav", "##judg", "##lac", "##pod", "##meet",
-    ##go, do,
+    "##habit", "##leav", "##judg", "##lac", "##pod", "##meet", "##led", "##mission", "##do", "##sheet",
+    ##go,
     # ize ized subgroup oper ium led
     ]
 
