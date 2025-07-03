@@ -439,7 +439,9 @@ word_pieces = [
     "##spoke", "##staff", "##stand", "##stay", "##strip", "##weigh", "##came", "##care", "##commit", "##complicat", "##crowd",
     "##debug", "##depend", "##hast", "##haul", "##hear", "##heat", "##kill", "##pric", "##relian", "##run", "##saturat", "##shadow",
     "##simplif", "##stock", "##throw", "##tak", "##shoot", "##sight", "##saw", "##sea", "##whelm", "##wrote", "##meter",
-    "##morph", "##hedron", "##synth", "##forc",
+    "##morph", "##hedron", "##synth", "##forc", "##go", "##wide", "##abat", "##accept", "##achiev", "##adjust", "##adorn", 
+    "##affect", "##afraid", "##announc", "##answer", "##assign", "##attach", "##attain", "##attend", "##attract", "##author",
+    "##avail", "##avoid", "##balanc",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
