@@ -225,7 +225,7 @@ diixo = [
     'vanish', 'car', 'arduino', 'api', 'valu', 'vector', 'eight', 'for', 'app', 'apposit', 'entrap', 'dream', 'dron', 'drill',
     'octa', 'dub', 'dress', 'driv', 'drink', 'talk', 'tall', 'drag', 'engross', 'entitl', 'eradicate', 'litera', 'obliterat',
     'plac', 'display', 'plain', 'planar', 'plan', 'plane', 'planet', 'complacen', 'bulk', 'buch', 'buy', 'calm', 'off', 'take',
-    'tak', 'tag', 'tailor', 'tail', 'oust', 'one', 'noone', 'honest', 'noone', 'demot', 'curtail', 'bone', 'demo', 'cone',
+    'tak', 'tag', 'tailor', 'tail', 'oust', 'one', 'noone', 'honest', 'demot', 'curtail', 'bone', 'demo', 'cone',
     'honour', 'postpon', 'patron', 'cursor', 'demolish', 'pump', 'snip', 'punct', 'long', 'sniff', 'punish', 'pupil', 'mongo',
     'humour', 'journal', 'journ', 'pour', 'humbl', 'park', 'rumour', 'pin', 'joy', 'scal', 'scalar', 'sys', 'much',
     'inaugurat', 'mon', 'favo', 'endeav', 'labo', 'laborator', 'collaborat', 'lab', 'lack', 'cold', 'fus', 'scold', 'idiom', 'axiom',
@@ -372,7 +372,7 @@ word_pieces = [
     "##cuda", "##charm", "##pos", "##obj", "##compil", "##compos", "##compres", "##construct", "##convol", "##dispos",
     "##differ", "##direct", "##discreet", "##discret", "##disput", "##distinct", "##dispens", "##door", "##valid",
     "##valu", "##variabl", "##varianc", "##variant", "##tabl", "##phone", "##crypt", "##record", "##view", "##cycl", "##boost",
-    "##delta", "##grad", "##updat", "##ward", "##noon", "##grand", "##cast", "##mention", "##quarter", "##python", "##escap",
+    "##delta", "##grad", "##updat", "##ward", "##grand", "##cast", "##mention", "##quarter", "##python", "##escap",
     "##exact", "##excus", "##expens", "##experien", "##express", "##famous", "##feasib", "##estima", "##class", "##cloud",
     "##channel", "##byte", "##comput", "##conceiv", "##condit", "##config", "##defin", "##determin", "##discover",
     "##task", "##map", "##check", "##connect", "##consider", "##creat", "##crawl", "##mark", "##declar", "##deliver",
@@ -393,7 +393,7 @@ word_pieces = [
     "##commod", "##compar", "##compat", "##complet", "##comprehen", "##conclusi", "##congru", "##consist", "##conspic",
     "##const", "##convenien", "##corpora", "##correct", "##fatuat", "##fanc", "##control", "##panel", "##metr", "##trop",
     "##body", "##how", "##except", "##follow", "##look", "##driv", "##api", "##shap", "##shuffl", "##sign", "##signif",
-    "##produc", "##js", "##fragment", "##rang", "##dram", "##brows", "##develop", "##client", "##cam", "##font", "##form",
+    "##produc", "##js", "##fragment", "##rang", "##dram", "##brows", "##develop", "##cam", "##font", "##form",
     "##hook", "##host", "##interfac", "##master", "##kit", "##log", "##client", "##component", "##request", "##scop",
     "##server", "##site", "##socket", "##stor", "##summit", "##trend", "##xml", "##fare", "##from", "##paper", "##app",
     "##just", "##justif", "##kind", "##know", "##label", "##law", "##learn", "##licens", "##limit", "##valent",
@@ -403,7 +403,7 @@ word_pieces = [
     "##notic", "##ostentat", "##optimiz", "##open", "##official", "##persuad", "##plan", "##plug", "##polish", "##practic",
     "##pool", "##popular", "##precedent", "##predict", "##prepar", "##pretend", "##prett", "##print", "##privileg", "##profession", 
     "##profit", "##protect", "##provid", "##publish", "##qualif", "##question", "##quot", "##ravel", "##reach", "##read",
-    "##ready", "##reason", "##reason", "##receiv", "##recogniz", "##recover", "##register", "##regulat", "##reliabl", "##requir",
+    "##ready", "##reason", "##receiv", "##recogniz", "##recover", "##register", "##regulat", "##reliabl", "##requir",
     "##requit", "##reserv", "##resolv", "##respon", "##restrict", "##reveal", "##rival", "##roll", "##saf", "##said", "##sav",
     "##say", "##season", "##see", "##seen", "##segment", "##select", "##releas", "##sell", "##sentiment", "##serial", "##settl",
     "##shak", "##shar", "##shift", "##send", "##skill", "##smooth", "##solicit", "##sort", "##specif", "##spent", "##splash",
@@ -413,12 +413,19 @@ word_pieces = [
     "##translat", "##treat", "##truth", "##twin", "##typic", "##usab", "##use", "##usual", "##vary", "##worth", "##front", "##wrap",
     "##willing", "##verif", "##visit", "##want", "##watch", "##welcom", "##well", "##whole", "##wield", "##wind", "##wound",
     "##wont", "##writ", "##beat", "##zip", "##grow", "##heav", "##held", "##hold", "##lift", "##most", "##start", "##ris",
-    "##stream", "##swing", "##take", "##vot",
+    "##swing", "##take", "##vot", "##pars", "##friend", "##engine", "##torrent", "##error",
     # ize ized subgroup oper ium
     ]
 
 
 def create_vocab():
+    ## check dublicates
+    seen = set()
+    for item in word_pieces:
+        if item in seen:
+            print(item)
+        seen.add(item)
+    ###################################
     vocab = sorted(diixo) + word_pieces
 
     print(f"sz={len(vocab)}")
