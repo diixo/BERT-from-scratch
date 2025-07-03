@@ -455,7 +455,9 @@ word_pieces = [
     "##try", "##unit", "##union", "##tweet", "##shot", "##one", "##thing", "##way", "##what", "##where", "##more", "##alone",
     "##forward", "##due", "##doubt", "##detect", "##deserv", "##desir", "##discern", "##disclos", "##distinguish", "##evaluat",
     "##exampl", "##expect", "##expir", "##explain", "##exploit", "##explor", "##fair", "##equi", "##employ", "##eas", "##familiar",
-    "##fill", "##feel", "##focus",
+    "##fill", "##feel", "##focus", "##feign", "##format", "##freez", "##frequen", "##fulfil", "##fund", "##foresee", "##forget",
+    "##identif", "##help", "##handl", "##happ", "##gracious", "##grate", "##health", "##geni", "##hid", "##heed", "##guess",
+    "##gallant",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
