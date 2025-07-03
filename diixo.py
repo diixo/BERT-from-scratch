@@ -342,7 +342,7 @@ diixo = [
     'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen', 'var', 'verbal', 'verdur', 'versatil', 'veto',
     'victim', 'vital', 'vivac', 'vow', 'vowel', 'vpn', 'vr', 'studio', 'min', 'mine', 'multiplicat', 'mus', 'nab', 'endear',
     'endanger', 'constru', 'newb', 'another', 'together', 'weather', 'counter', 'protract', 'retract', 'artificial', 'supplant',
-    'supplement', 'introduc',
+    'supplement', 'introduc', 'juvenat', 'pale', 'niche', 'avow',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -427,7 +427,10 @@ word_pieces = [
     "##constru", "##mind", "##the", "##together", "##string", "##counter", "##act", "##clock", "##measur", "##ficial", "##fact",
     "##human", "##impos", "##intelli", "##intend", "##shin", "##add", "##intent", "##interpolat", "##interrupt", "##lateral",
     "##implement", "##import", "##impress", "##init", "##initiat", "##inspir", "##imped", "##imagin", "##inforc", "##insert",
-    "##instat", "##integr", "##invent", "##issu", "##iterat", "##joic", "##join", "##introduc", "##launch",
+    "##instat", "##integr", "##invent", "##issu", "##iterat", "##joic", "##join", "##introduc", "##launch", "##juvenat", "##lay",
+    "##laps", "##laid", "##layout", "##letter", "##virus", "##alias", "##merg", "##motiv", "##pilot", "##play", "##regress",
+    "##repl", "##rotat", "##scroll", "##wait", "##while", "##woke", "##bone", "##drop", "##end", "##ground", "##light", "##slash",
+    "##trac",
     #counter
     # ize ized subgroup oper ium led
     ]
