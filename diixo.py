@@ -342,7 +342,9 @@ diixo = [
     'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen', 'var', 'verbal', 'verdur', 'versatil', 'veto',
     'victim', 'vital', 'vivac', 'vow', 'vowel', 'vpn', 'vr', 'studio', 'min', 'mine', 'multiplicat', 'mus', 'nab', 'endear',
     'endanger', 'constru', 'newb', 'another', 'together', 'weather', 'counter', 'protract', 'retract', 'artificial', 'supplant',
-    'supplement', 'introduc', 'juvenat', 'pale', 'niche', 'avow',
+    'supplement', 'introduc', 'juvenat', 'pale', 'niche', 'avow', 'bank', 'underneath', 'adobe', 'cit', 'eleven', 'inquisit',
+    'inroad', 'intelligen', 'misspel', 'misspen', 'output', 'wan', 'ow', 'pal', 'pac', 'palpab', 'ponder', 'perhaps', 'note',
+    'nothing',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -430,8 +432,15 @@ word_pieces = [
     "##instat", "##integr", "##invent", "##issu", "##iterat", "##joic", "##join", "##introduc", "##launch", "##juvenat", "##lay",
     "##laps", "##laid", "##layout", "##letter", "##virus", "##alias", "##merg", "##motiv", "##pilot", "##play", "##regress",
     "##repl", "##rotat", "##scroll", "##wait", "##while", "##woke", "##bone", "##drop", "##end", "##ground", "##light", "##slash",
-    "##trac",
-    #counter
+    "##trac", "##centr", "##soup", "##hand", "##scor", "##represent", "##rat", "##perform", "##break", "##keep", "##room",
+    "##access", "##sens", "##content", "##continu", "##cours", "##commerc", "##text", "##vector", "##lumin", "##magnet", "##mechanic",
+    "##techni", "##sincere", "##scrut", "##sensitiv", "##sent", "##separ", "##hood", "##span", "##hack", "##std", "##took",
+    "##us", "##understand", "##understood", '##sourc', "##stack", "##street", "##offic", "##gonal", "##selv", "##lie",
+    "##spoke", "##staff", "##stand", "##stay", "##strip", "##weigh", "##came", "##care", "##commit", "##complicat", "##crowd",
+    "##debug", "##depend", "##hast", "##haul", "##hear", "##heat", "##kill", "##pric", "##relian", "##run", "##saturat", "##shadow",
+    "##simplif", "##stock", "##throw", "##tak", "##shoot", "##sight", "##saw", "##sea", "##whelm", "##wrote", "##meter",
+    "##morph", "##hedron", "##synth", "##forc",
+    ##go, do,
     # ize ized subgroup oper ium led
     ]
 
