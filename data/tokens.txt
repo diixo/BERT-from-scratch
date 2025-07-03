@@ -1,4 +1,7 @@
 .js
+1d
+2d
+3d
 abandon
 abat
 abbreviat
@@ -3983,6 +3986,7 @@ unveil
 uous
 upbraid
 updat
+upend
 upgrad
 upon
 upped
@@ -4818,3 +4822,19 @@ zoom
 ##verif
 ##visit
 ##want
+##watch
+##welcom
+##well
+##whole
+##wield
+##wind
+##wound
+##wont
+##writ
+##beat
+##zip
+##grow
+##heav
+##held
+##hold
+##lift
