@@ -134,7 +134,7 @@ diixo = [
     'perfect', 'person', 'perspectiv', 'persist', 'persuad', 'inherit', 'innovat', 'inspect', 'offenc', 'offens', 'offend', 'often',
     'actual', 'actuat', 'character', 'impact', 'redact', 'satellit', 'syntax', 'tranquil', 'transact', 'trajector', 'trait', 'transceiv',
     'insinuat', 'transcend', 'transclud', 'txt', 'twitter', 'tweet', 'two', 'network', 'neur', 'modul', 'twitch', 'twink', 'twin',
-    'mount', 'mistak', 'moment', 'ascend', 'mountain', 'maintain', 'motiv', 'approximat', 'approb', 'motion', 'emotion', 'deform',
+    'mount', 'mistake', 'moment', 'ascend', 'mountain', 'maintain', 'motiv', 'approximat', 'approb', 'motion', 'emotion', 'deform',
     'nom', 'mouse', 'merg', 'mesh', 'among', 'demand', 'match', 'amount', 'phenomen', 'gnome', 'default', 'defect', 'defeat', 'defer',
     'commiss', 'dismiss', 'emiss', 'intermiss', 'permiss', 'remiss', 'submiss', 'permanent', 'permit', 'permeat', 'defenc', 'defens',
     'defend', 'deflect', 'deflat', 'entire', 'discord', 'either', 'twiddl', 'neighbo', 'neither', 'negotiat', 'neglig', 'neglect', #'sync'
@@ -347,8 +347,9 @@ diixo = [
     'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair', 'despatch', 'destination',
     'despoil', 'diagram', 'international', 'invoic', 'irrita', 'irregular', 'irresist', 'irrespect', 'irrelevant', 'irreplac',
     'irrational', 'irksome', 'iso', 'iris', 'nuance', 'readapt', 'quiver', 'proliferat', 'revanc', 'ruminat', 'shone', 'sinop',
-    'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product', 'revocat', 'scant', 'robo', 'struck',
-    #'in', #'up', 'un', 'de', 'co',
+    'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product', 'revocat', 'scant', 'robo', 'struck', 'adverb',
+    'pron', 'below', 'belov', 'deny', 'notion', 'deplor', #'demur', 'denot', 'depot', 'derisi', 'delusion', 'defragment', 'defunct'
+    #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
     #'ling', #'lin', # 'gap', 'eag', 'tim' ring,
@@ -458,7 +459,11 @@ word_pieces = [
     "##fill", "##feel", "##focus", "##feign", "##format", "##freez", "##frequen", "##fulfil", "##fund", "##foresee", "##forget",
     "##identif", "##help", "##handl", "##happ", "##gracious", "##grate", "##health", "##geni", "##hid", "##heed", "##guess",
     "##gallant", "##dog", "##land", "##char", "##press", "##round", "##dominan", "##dominat", "##fetch", "##dock", "##pay",
-    "##doc", "##dos", "##matur", "##submiss", "##submit","##surg", "##sync", "##colon", "##men",
+    "##doc", "##dos", "##matur", "##submiss", "##submit","##surg", "##sync", "##colon", "##men", "##valenc", "##dom", "##public",
+    "##puls", "##purpos", "##schedul", "##cas", "##numer", "##cad", "##tude", "##late", "##band", "##ref", "##val",
+    "##referenc", "##geo", "##refut", "##reduc", "##expert", "##bean", "##scap", "##mov", "##ubuntu", "##commut", "##complian",
+    "##contigu", "##convex", "##empt", "##exist", "##litera", "##local", "##monoton", "##occur", "##plus", "##regular", "##relevan",
+    "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher",
     ##go, do,
     # ize ized subgroup oper ium led
     ]
