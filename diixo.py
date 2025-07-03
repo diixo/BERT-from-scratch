@@ -340,7 +340,8 @@ diixo = [
     'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo', 'signif', 'sull',
     'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl', 'mirth', 'un', 'official', 'polish', 'requit',
     'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen', 'var', 'verbal', 'verdur', 'versatil', 'veto',
-    'victim', 'vital', 'vivac',
+    'victim', 'vital', 'vivac', 'vow', 'vowel', 'vpn', 'vr', 'studio', 'min', 'mine', 'multiplicat', 'mus', 'nab', 'endear',
+    'endanger', 'constru',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -414,8 +415,17 @@ word_pieces = [
     "##translat", "##treat", "##truth", "##twin", "##typic", "##usab", "##use", "##usual", "##vary", "##worth", "##front", "##wrap",
     "##willing", "##verif", "##visit", "##want", "##watch", "##welcom", "##well", "##whole", "##wield", "##wind", "##wound",
     "##wont", "##writ", "##beat", "##zip", "##grow", "##heav", "##held", "##hold", "##lift", "##most", "##start", "##ris",
-    "##swing", "##take", "##vot", "##pars", "##friend", "##engine", "##torrent", "##error", "##model", "##port",
-    # ize ized subgroup oper ium
+    "##swing", "##take", "##vot", "##pars", "##friend", "##engine", "##torrent", "##error", "##model", "##port", "##studio",
+    "##around", "##pro", "##craft", "##optimal", "##part", "##ordinat", "##pixel", "##problem", "##quer", "##routine", "##vers",
+    "##program", "##gpt", "##architect", "##bench", "##chip", "##electron", "##framework", "##grid", "##messag", "##mobil",
+    "##sensor", "##soft", "##second", "##wav", "##journ", "##night", "##summer", "##ston", "##blow", "##collinear", "##color",
+    "##core", "##devic", "##dimens", "##factor", "##func", "##index", "##layer", "##level", "##head", "##media", "##modal",
+    "##nation", "##nomi", "##method", "##project", "##processor", "##resolut", "##protocol", "##region", "##thread", "##sql",
+    "##param", "##face", "##particl", "##pass", "##hav", "##compass", "##croach", "##courag", "##pedia", "##giv", "##guid",
+    "##align", "##appl", "##behav", "##chief", "##communic", "##concept", "##conduct", "##ratio", "##fit", "##interpret", "##lead",
+    "##constru",
+    #counter
+    # ize ized subgroup oper ium led
     ]
 
 
