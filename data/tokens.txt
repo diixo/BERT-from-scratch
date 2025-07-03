@@ -2735,6 +2735,8 @@ patron
 patronag
 pattern
 paus
+pav
+pay
 peac
 peak
 peculiar
@@ -2785,6 +2787,7 @@ philosoph
 phish
 phone
 phonet
+phono
 photo
 php
 phras
@@ -2793,6 +2796,8 @@ pick
 pict
 pictur
 piece
+pile
+pilfer
 pilot
 pin
 ping
@@ -2917,6 +2922,7 @@ processor
 procrastinat
 procur
 produc
+product
 profess
 profession
 profic
@@ -4271,6 +4277,7 @@ within
 without
 witness
 wizard
+wlan
 woke
 woman
 women
@@ -5318,3 +5325,16 @@ zoom
 ##heed
 ##guess
 ##gallant
+##dog
+##land
+##char
+##press
+##round
+##dominan
+##dominat
+##fetch
+##dock
+##pay
+##doc
+##dos
+##matur
