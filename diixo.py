@@ -344,7 +344,9 @@ diixo = [
     'endanger', 'constru', 'newb', 'another', 'together', 'weather', 'counter', 'protract', 'retract', 'artificial', 'supplant',
     'supplement', 'introduc', 'juvenat', 'pale', 'niche', 'avow', 'bank', 'underneath', 'adobe', 'cit', 'eleven', 'inquisit',
     'inroad', 'intelligen', 'misspel', 'misspen', 'output', 'wan', 'ow', 'pal', 'pac', 'palpab', 'ponder', 'perhaps', 'note',
-    'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair',
+    'nothing', 'bleach', 'de', 'designat', 'serializ', 'def', 'desperat', 'despond', 'despair', 'despatch', 'destination',
+    'despoil', 'diagram', 'international', 'invoic', 'irrita', 'irregular', 'irresist', 'irrespect', 'irrelevant', 'irreplac',
+    'irrational', 'irksome',
     #'in', #'up', 'un', 'de', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -445,7 +447,8 @@ word_pieces = [
     "##categor", "##caught", "##ceremon", "##certain", "##chain", "##chang", "##chart", "##civil", "##clear", "##comfort",
     "##comment", "##common", "##compet", "##compromis", "##concern", "##confirm", "##constrain", "##convent", "##convinc",
     "##coordinat", "##correlat", "##coupl", "##couth", "##cover", "##curat", "##daunt", "##decid", "##copy", "##contest", "##bred",
-    "##graduat", "##deni", "##serializ", "##stabiliz",
+    "##graduat", "##deni", "##serializ", "##stabiliz", "##guard", "##spatial", "##posit", "##oper", "##visib", "##volunt",
+
     ##go, do,
     # ize ized subgroup oper ium led
     ]
