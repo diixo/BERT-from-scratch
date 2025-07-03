@@ -3634,6 +3634,11 @@ spread
 spring
 sprinkl
 sprint
+sprung
+spurious
+spurn
+spy
+spyder
 sql
 squar
 squeez
@@ -3817,6 +3822,7 @@ sympath
 sync
 synchron
 synonym
+synopsis
 synt
 syntax
 synth
@@ -3882,8 +3888,10 @@ terminat
 terrain
 terribl
 terrif
+terse
 tessellat
 test
+testimonial
 tether
 text
 than
@@ -3933,6 +3941,7 @@ thriv
 through
 throw
 thumb
+thumbnail
 thunder
 thunk
 thus
@@ -3969,6 +3978,8 @@ top
 topic
 topolog
 torch
+tore
+torn
 torrent
 total
 touch
@@ -4024,10 +4035,12 @@ tree
 trembl
 tremend
 trend
+tri
 trial
 triang
 triangul
 trick
+trie
 trifl
 trigger
 trim
@@ -5458,3 +5471,10 @@ zoom
 ##mission
 ##do
 ##sheet
+##card
+##put
+##flect
+##stamp
+##gono
+##ask
+##bias

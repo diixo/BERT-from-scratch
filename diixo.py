@@ -350,7 +350,8 @@ diixo = [
     'disclos', 'wlan', 'pay', 'pav', 'pile', 'pilfer', 'phono', 'product', 'revocat', 'scant', 'robo', 'struck', 'adverb',
     'pron', 'below', 'belov', 'deny', 'notion', 'deplor', 'demur', 'denot', 'depot', 'derisi', 'delusion', 'defragment', 'defy',
     'defunct', 'fathom', 'hatr', 'howbeit', 'innoc', 'insolv', 'horr', 'interior', 'intermitt', 'interim', 'mince', 'nascent',
-    'navigat', 'slain', 'candour', 'pdo', 'partner',
+    'navigat', 'slain', 'candour', 'pdo', 'partner', 'spurn', 'spurious', 'sprung', 'spy', 'spyder', 'synopsis', 'testimonial',
+    'terse', 'thumbnail', 'tore', 'torn', 'tri', 'trie',
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -468,7 +469,8 @@ word_pieces = [
     "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher", "##distan", "##singular", "##vocat",
     "##loop", "##path", "##stash", "##wire", "##lens", "##key", "##spot", "##far", "##depth", "##fram", "##decimal", "##patien",
     "##perfect", "##precis", "##proper", "##propriet", "##probab", "##prim", "##ident", "##pruden", "##describ", "##finit", "##flam",
-    "##habit", "##leav", "##judg", "##lac", "##pod", "##meet", "##led", "##mission", "##do", "##sheet",
+    "##habit", "##leav", "##judg", "##lac", "##pod", "##meet", "##led", "##mission", "##do", "##sheet", "##card", "##put",
+    "##flect", "##stamp", "##gono", "##ask", "##bias",
     ##go,
     # ize ized subgroup oper ium led
     ]
