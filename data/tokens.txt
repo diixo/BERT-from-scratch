@@ -2018,6 +2018,7 @@ increas
 incredibl
 increment
 incubat
+incumben
 incur
 indebt
 indeed
@@ -2155,6 +2156,7 @@ invoic
 invok
 involv
 ion
+ios
 iris
 irksome
 irrational
@@ -2674,6 +2676,7 @@ opaci
 opaque
 open
 oper
+operand
 operat
 opinion
 opponent
@@ -5478,3 +5481,20 @@ zoom
 ##gono
 ##ask
 ##bias
+##mean
+##flex
+##fluen
+##flux
+##delic
+##definit
+##decisi
+##fatig
+##congruent
+##polit
+##migrat
+##polar
+##vis
+##itera
+##technolog
+##conform
+##did
