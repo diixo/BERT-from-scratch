@@ -355,7 +355,8 @@ diixo = [
     'compunction', 'con', 'coder', 'forbear', 'freelanc', 'cope', 'deject', 'dip', 'dim', 'din', 'exif', 'expo', 'era', 'evinc',
     'fed', 'fog', 'ordinal', 'per', 'perpetual', 'priz', 'prop', 'purg', 'pervas', 'propensit', 'que', 'prodd', 'uml', 'retort',
     'roi', 'role', 'sagac', 'sedat', 'sull', 'swept', 'tomorrow', 'tone', 'torment', 'toss', 'totter', 'tray', 'tpu', 'treach',
-    'trodden', 'trojan', 'tv', 'tues', 'voip', 'witt', 'tar', 'startup',
+    'trodden', 'trojan', 'tv', 'tues', 'voip', 'witt', 'tar', 'startup', 'prophe', 'renoun', 'renown', 'slit', 'translucen',
+    'twilight', 'surveill', 'verac', 'shan', 'perchance', 'perennially', 'ring',
     # 'per', prize, privacy, prop, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
@@ -480,9 +481,9 @@ word_pieces = [
     "##length", "##let", "##bot", "##driver", "##block", "##battle", "##qualit", "##school", "##sprint", "##styl", "##review",
     "##robot", "##descen", "##federat", "##scan", "##auto", "##info", "##duplicat", "##dream", "##hap", "##ran", "##spark",
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
-    "##total",
+    "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin",
     ##go,
-    # ize ized subgroup oper ium led
+    # ize ized subgroup oper led
     ]
 
 

@@ -2806,6 +2806,8 @@ per
 perceiv
 percent
 percept
+perchance
+perennially
 perfect
 perform
 perhaps
@@ -3002,6 +3004,7 @@ prop
 propagat
 propensit
 proper
+prophe
 proportion
 propos
 propriet
@@ -3206,7 +3209,9 @@ remonstra
 remot
 remov
 render
+renoun
 renovat
+renown
 rent
 repair
 repeat
@@ -3290,6 +3295,7 @@ right
 rigid
 rigorous
 rimm
+ring
 rip
 ris
 risk
@@ -3468,6 +3474,7 @@ shak
 shall
 shallow
 sham
+shan
 shap
 shar
 shard
@@ -3565,6 +3572,7 @@ slight
 slim
 sling
 slip
+slit
 slop
 slot
 slow
@@ -3829,6 +3837,7 @@ surpris
 surrender
 surrogate
 surround
+surveill
 survey
 surviv
 susceptib
@@ -4064,6 +4073,7 @@ transist
 transit
 translat
 transliterat
+translucen
 transmiss
 transmit
 transparen
@@ -4123,6 +4133,7 @@ twelve
 twent
 twice
 twiddl
+twilight
 twin
 twink
 twist
@@ -4227,6 +4238,7 @@ vendor
 ventilat
 ventur
 venue
+verac
 verb
 verbal
 verbos
@@ -5588,3 +5600,11 @@ zoom
 ##fath
 ##topic
 ##total
+##aware
+##negotiat
+##new
+##matrix
+##screen
+##sock
+##forgiv
+##admin
