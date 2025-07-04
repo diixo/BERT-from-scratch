@@ -358,7 +358,8 @@ diixo = [
     'trodden', 'trojan', 'tv', 'tues', 'voip', 'witt', 'tar', 'startup', 'prophe', 'renoun', 'renown', 'slit', 'translucen',
     'twilight', 'surveill', 'verac', 'shan', 'perchance', 'perennially', 'ring', 'wet', 'wel', 'wept', 'presid', 'preset',
     'precious', 'predat', 'pang', 'oath', 'nor', 'obj', 'ok', 'okay', 'pdf', 'patholog', 'premium', 'up', 'upsert', 'prize',
-    'sought', 'strode', 'novitiat', 'occlusion', 'ocr', 'odious', 'our',
+    'sought', 'strode', 'novitiat', 'occlusion', 'ocr', 'odious', 'our', 'sigmoid', 'note', 'lin', 'stolen', 'stoke', 'straiv',
+    'ten', 'thrice', 'thrust',
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
@@ -484,7 +485,7 @@ word_pieces = [
     "##robot", "##descen", "##federat", "##scan", "##auto", "##info", "##duplicat", "##dream", "##hap", "##ran", "##spark",
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
-    "##drew",
+    "##drew", "##mod",
     ##go, all
     # ize ized subgroup oper led
     ]

@@ -2339,6 +2339,7 @@ lift
 light
 lik
 limit
+lin
 line
 lingu
 linguist
@@ -2629,6 +2630,7 @@ normaliz
 north
 not
 notat
+note
 note
 nothing
 notic
@@ -3530,6 +3532,7 @@ sick
 side
 sigh
 sight
+sigmoid
 sign
 signal
 signatur
@@ -3753,6 +3756,8 @@ stipulat
 stir
 stochast
 stock
+stoke
+stolen
 ston
 ston
 stood
@@ -3766,6 +3771,7 @@ stout
 straggl
 straight
 strain
+straiv
 strang
 strap
 strat
@@ -3943,6 +3949,7 @@ temperatur
 templat
 tempor
 tempt
+ten
 tenabl
 tenacious
 tend
@@ -4006,11 +4013,13 @@ threat
 three
 thres
 threw
+thrice
 thrift
 thrill
 thriv
 through
 throw
+thrust
 thumb
 thumbnail
 thunder
@@ -5638,3 +5647,4 @@ zoom
 ##gam
 ##fps
 ##drew
+##mod
