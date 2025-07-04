@@ -620,6 +620,7 @@ choos
 chop
 chose
 chrom
+chrome
 chronologic
 chunk
 cipher
@@ -670,6 +671,7 @@ cobol
 cocoa
 cod
 code
+coder
 codif
 coefficient
 coffee
@@ -744,8 +746,10 @@ compres
 compris
 compromis
 compuls
+compunction
 comput
 computer
+con
 concatenat
 concav
 conceal
@@ -858,6 +862,7 @@ cook
 cool
 cooperat
 coordinat
+cope
 copi
 copy
 cord
@@ -1015,6 +1020,7 @@ defus
 defy
 degrad
 degree
+deject
 delay
 delegat
 delet
@@ -1119,10 +1125,13 @@ dilat
 dilemma
 diligen
 dilut
+dim
 dimens
 diminish
+din
 dinner
 diod
+dip
 dire
 direct
 dirt
@@ -1381,7 +1390,8 @@ equi
 equip
 equit
 er
-eradicate
+era
+eradicat
 eras
 ergonom
 erlang
@@ -1417,6 +1427,7 @@ ever
 every
 evict
 eviden
+evinc
 evok
 evolut
 evolv
@@ -1442,6 +1453,7 @@ exercis
 exert
 exhaust
 exhibit
+exif
 exigen
 exist
 exit
@@ -1464,6 +1476,7 @@ explod
 exploit
 explor
 explos
+expo
 exponent
 export
 expos
@@ -1526,6 +1539,7 @@ fear
 feasib
 featur
 february
+fed
 federal
 federat
 feebl
@@ -1614,6 +1628,7 @@ flux
 fly
 focal
 focus
+fog
 fold
 foll
 follow
@@ -1626,6 +1641,7 @@ fopp
 for
 foray
 forb
+forbear
 forbid
 forc
 fore
@@ -1670,6 +1686,7 @@ franca
 frantic
 fraud
 free
+freelanc
 freez
 frequen
 fresh
@@ -2695,6 +2712,7 @@ option
 or
 oracle
 order
+ordinal
 ordinar
 ordinar
 ordinat
@@ -2784,6 +2802,7 @@ penetrat
 pens
 pent
 peopl
+per
 perceiv
 percent
 percept
@@ -2799,6 +2818,7 @@ permiss
 permit
 permut
 perpendicular
+perpetual
 perplex
 persever
 persist
@@ -2811,6 +2831,7 @@ pertin
 perturb
 perus
 pervad
+pervas
 pessimi
 peta
 phase
@@ -2943,6 +2964,7 @@ print
 prior
 privat
 privileg
+priz
 pro
 prob
 probab
@@ -2953,6 +2975,7 @@ process
 processor
 procrastinat
 procur
+prodd
 produc
 product
 profess
@@ -2975,7 +2998,9 @@ pron
 pronoun
 pronunc
 proof
+prop
 propagat
+propensit
 proper
 proportion
 propos
@@ -3014,6 +3039,7 @@ punk
 pupil
 pur
 purchas
+purg
 purpos
 pursu
 push
@@ -3033,6 +3059,7 @@ quarrel
 quart
 quarter
 quaternion
+que
 queen
 queer
 quer
@@ -3183,6 +3210,7 @@ renovat
 rent
 repair
 repeat
+repent
 repetit
 repl
 repla
@@ -3231,6 +3259,7 @@ retail
 retain
 retent
 retir
+retort
 retract
 retriev
 retro
@@ -3242,6 +3271,7 @@ revel
 revenue
 revers
 revert
+review
 revis
 revisit
 reviv
@@ -3274,7 +3304,9 @@ robo
 robot
 robust
 rock
+roi
 rol
+role
 roll
 roman
 room
@@ -3311,6 +3343,7 @@ saas
 sad
 saf
 safar
+sagac
 said
 sail
 sal
@@ -3377,6 +3410,7 @@ second
 secret
 sect
 secur
+sedat
 seduc
 see
 seed
@@ -3665,6 +3699,7 @@ standby
 star
 stare
 start
+startup
 stash
 stat
 static
@@ -3765,6 +3800,7 @@ suffix
 suggest
 suit
 sull
+sull
 summ
 summa
 summer
@@ -3811,6 +3847,7 @@ swear
 sweep
 sweet
 swell
+swept
 swift
 swin
 swip
@@ -3853,6 +3890,7 @@ tangent
 tangl
 tap
 tap
+tar
 target
 task
 tast
@@ -3972,6 +4010,8 @@ token
 told
 tolera
 tolerat
+tomorrow
+tone
 tong
 too
 took
@@ -3982,9 +4022,12 @@ topic
 topolog
 torch
 tore
+torment
 torn
 torrent
+toss
 total
+totter
 touch
 tough
 tour
@@ -3992,6 +4035,7 @@ tournament
 tout
 toward
 town
+tpu
 trac
 track
 tract
@@ -4031,6 +4075,8 @@ trap
 trash
 travel
 travers
+tray
+treach
 tread
 treasur
 treat
@@ -4050,6 +4096,8 @@ trim
 tripl
 triumph
 trivial
+trodden
+trojan
 trop
 troubl
 tru
@@ -4060,6 +4108,7 @@ trunk
 trust
 truth
 try
+tues
 tun
 tunel
 tunnel
@@ -4067,6 +4116,7 @@ tupl
 turbo
 turn
 tutor
+tv
 tweak
 tweet
 twelve
@@ -4082,7 +4132,7 @@ two
 txt
 typ
 type
-typic
+typical
 typo
 ubiquit
 ubuntu
@@ -4091,6 +4141,7 @@ ui
 uint
 ultimat
 ultra
+uml
 un
 unar
 under
@@ -4226,6 +4277,7 @@ vocal
 vocat
 voic
 void
+voip
 volatil
 volt
 volub
@@ -4265,6 +4317,7 @@ wast
 watch
 water
 wav
+wavelet
 way
 we
 weak
@@ -4327,6 +4380,7 @@ with
 within
 without
 witness
+witt
 wizard
 wlan
 woke
@@ -4369,7 +4423,7 @@ you
 young
 your
 youth
-youtub
+youtube
 zero
 zip
 zon
@@ -5498,3 +5552,39 @@ zoom
 ##technolog
 ##conform
 ##did
+##spread
+##length
+##let
+##bot
+##driver
+##block
+##battle
+##qualit
+##school
+##sprint
+##styl
+##review
+##robot
+##descen
+##federat
+##scan
+##auto
+##info
+##duplicat
+##dream
+##hap
+##ran
+##spark
+##arch
+##found
+##gb
+##deem
+##tell
+##ball
+##even
+##equivocal
+##favo
+##finish
+##fath
+##topic
+##total
