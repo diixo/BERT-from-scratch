@@ -356,8 +356,10 @@ diixo = [
     'fed', 'fog', 'ordinal', 'per', 'perpetual', 'priz', 'prop', 'purg', 'pervas', 'propensit', 'que', 'prodd', 'uml', 'retort',
     'roi', 'role', 'sagac', 'sedat', 'sull', 'swept', 'tomorrow', 'tone', 'torment', 'toss', 'totter', 'tray', 'tpu', 'treach',
     'trodden', 'trojan', 'tv', 'tues', 'voip', 'witt', 'tar', 'startup', 'prophe', 'renoun', 'renown', 'slit', 'translucen',
-    'twilight', 'surveill', 'verac', 'shan', 'perchance', 'perennially', 'ring',
-    # 'per', prize, privacy, prop, propp, propensit, propropeller
+    'twilight', 'surveill', 'verac', 'shan', 'perchance', 'perennially', 'ring', 'wet', 'wel', 'wept', 'presid', 'preset',
+    'precious', 'predat', 'pang', 'oath', 'nor', 'obj', 'ok', 'okay', 'pdf', 'patholog', 'premium', 'up', 'upsert', 'prize',
+    'sought', 'strode', 'novitiat', 'occlusion', 'ocr', 'odious', 'our',
+    # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
     # rat, tri, son, perma-link neura-link euclid tip bi- , hit,
@@ -481,8 +483,9 @@ word_pieces = [
     "##length", "##let", "##bot", "##driver", "##block", "##battle", "##qualit", "##school", "##sprint", "##styl", "##review",
     "##robot", "##descen", "##federat", "##scan", "##auto", "##info", "##duplicat", "##dream", "##hap", "##ran", "##spark",
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
-    "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin",
-    ##go,
+    "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
+    "##drew",
+    ##go, all
     # ize ized subgroup oper led
     ]
 
