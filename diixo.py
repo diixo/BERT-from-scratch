@@ -240,7 +240,7 @@ diixo = [
     'wizard', 'power', 'relinquish', 'reliev', 'ornament', 'dia', 'gonal', 'dialect', 'dialog', 'dial', 'meter', 'nurs', 'jitter',
     'writ', 'wrote', 'wretch', 'relax', 'fulfil', 'file', 'dos', 'sincere', 'since', 'figur', 'layout', 'dot', 'bot', 'both', 'fight',
     'fuel', 'get', 'lay', 'laid', 'twent', 'underwent', 'went', 'twelve', 'whelm', 'simultaneous', 'similar', 'silver', 'odd',
-    'signal', 'signif', 'signatur', 'dissent', 'dissipat', 'sociat', 'disrupt', 'dissuad', 'distan', 'tast', 'taught', 'speak', 'spoke',
+    'signal', 'signif', 'signatur', 'dissent', 'dissipat', 'sociat', 'disrupt', 'dissuad', 'distant', 'tast', 'taught', 'speak', 'spoke',
     'fram', 'framework', 'guard', 'wire', 'tim', 'verbos', 'obstinate', 'obtain', 'obviat', 'obvious', 'occasion', 'occup', 'occlud',
     'obstruct', 'old', 'omit', 'hold', 'gold', 'thres', 'got', 'vigour', 'django', 'rigorous', 'logit', 'logistic', 'gorgeous', 'poll',
     'during', 'duration', 'durab', 'notat', 'cur', 'curl', 'light', 'male', 'female', 'equaliz', 'linguist', 'compel', 'sill',
@@ -359,7 +359,8 @@ diixo = [
     'twilight', 'surveill', 'verac', 'shan', 'perchance', 'perennially', 'ring', 'wet', 'wel', 'wept', 'presid', 'preset',
     'precious', 'predat', 'pang', 'oath', 'nor', 'obj', 'ok', 'okay', 'pdf', 'patholog', 'premium', 'up', 'upsert', 'prize',
     'sought', 'strode', 'novitiat', 'occlusion', 'ocr', 'odious', 'our', 'sigmoid', 'note', 'lin', 'stolen', 'stoke', 'straiv',
-    'ten', 'thrice', 'thrust',
+    'ten', 'thrice', 'thrust', 'distanc', 'apply', 'appli', 'application', 'applicant', 'applicab', 'dispel', 'dispatch',
+    'disorder', 'displac', 'displeas', 'disprov', 'disqualif', 'disregard', 'dissect', 'disseminat', 'disrespect',
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
@@ -475,7 +476,7 @@ word_pieces = [
     "##puls", "##purpos", "##schedul", "##cas", "##numer", "##cad", "##tude", "##late", "##band", "##ref", "##val",
     "##referenc", "##geo", "##refut", "##reduc", "##expert", "##bean", "##scap", "##mov", "##ubuntu", "##commut", "##complian",
     "##contigu", "##convex", "##empt", "##exist", "##litera", "##local", "##monoton", "##occur", "##plus", "##regular", "##relevan",
-    "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher", "##distan", "##singular", "##vocat",
+    "##standard", "##stationar", "##trivial", "##zero", "##here", "##spher", "##cipher", "##distant", "##singular", "##vocat",
     "##loop", "##path", "##stash", "##wire", "##lens", "##key", "##spot", "##far", "##depth", "##fram", "##decimal", "##patien",
     "##perfect", "##precis", "##proper", "##propriet", "##probab", "##prim", "##ident", "##pruden", "##describ", "##finit", "##flam",
     "##habit", "##leav", "##judg", "##lac", "##pod", "##meet", "##led", "##mission", "##do", "##sheet", "##card", "##put",
@@ -485,7 +486,7 @@ word_pieces = [
     "##robot", "##descen", "##federat", "##scan", "##auto", "##info", "##duplicat", "##dream", "##hap", "##ran", "##spark",
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
-    "##drew", "##mod",
+    "##drew", "##mod", "##distanc", "##apply", "##appli",
     ##go, all
     # ize ized subgroup oper led
     ]
