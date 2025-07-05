@@ -419,7 +419,6 @@ belov
 below
 bench
 bend
-bend
 beneath
 benefic
 benefit
@@ -1245,7 +1244,6 @@ drain
 dram
 drama
 drank
-drank
 drastic
 draw
 dread
@@ -1274,7 +1272,6 @@ dupl
 durab
 duration
 during
-during
 dusk
 dust
 dut
@@ -1285,7 +1282,6 @@ each
 eager
 ear
 earl
-earn
 earn
 earth
 eas
@@ -1314,7 +1310,6 @@ elaps
 elastic
 elde
 elect
-electr
 electr
 electrif
 electron
@@ -1394,7 +1389,6 @@ entrap
 entre
 entreat
 entrench
-entrop
 entrop
 entropic
 entrust
@@ -1531,7 +1525,6 @@ factor
 fad
 fail
 faint
-fair
 fair
 faith
 fake
@@ -1767,7 +1760,6 @@ gb
 gcc
 geek
 gem
-gem
 gemini
 gen
 gener
@@ -1780,7 +1772,6 @@ gentl
 genuin
 geo
 gestur
-get
 get
 gether
 ghost
@@ -1843,7 +1834,6 @@ grappl
 grasp
 grat
 grate
-gratif
 gratif
 grav
 gravit
@@ -1910,7 +1900,6 @@ hdd
 hdmi
 he
 head
-head
 heal
 health
 heap
@@ -1949,7 +1938,6 @@ his
 hist
 histor
 hit
-hit
 hither
 hiv
 hold
@@ -1962,7 +1950,6 @@ homogen
 honest
 honour
 hood
-hook
 hook
 hop
 horizon
@@ -2001,7 +1988,6 @@ idea
 ideal
 ident
 identif
-identif
 idiom
 idol
 ight
@@ -2035,7 +2021,6 @@ implant
 implement
 implicat
 implicit
-import
 import
 impos
 impossibl
@@ -2075,7 +2060,6 @@ individual
 indolen
 indub
 induc
-induc
 induct
 indulg
 industr
@@ -2111,7 +2095,6 @@ inlin
 innate
 inner
 inno
-innoc
 innoc
 innocent
 innovat
@@ -2163,7 +2146,6 @@ intercept
 interest
 interfac
 interfer
-interim
 interim
 interior
 intermiss
@@ -2269,7 +2251,6 @@ kde
 keen
 keep
 kept
-kept
 keras
 kernel
 key
@@ -2356,7 +2337,6 @@ leverat
 levity
 lex
 lexic
-lexic
 liab
 lib
 liberal
@@ -2395,7 +2375,6 @@ lodg
 log
 logarithm
 logic
-logic
 logistic
 logit
 lonel
@@ -2427,7 +2406,6 @@ magnitud
 mail
 main
 mainfram
-maintain
 maintain
 mainten
 majest
@@ -2511,7 +2489,6 @@ micro
 mid
 middl
 might
-migrat
 migrat
 mild
 mile
@@ -2666,7 +2643,6 @@ north
 not
 notat
 note
-note
 nothing
 notic
 notif
@@ -2759,7 +2735,6 @@ or
 oracle
 order
 ordinal
-ordinar
 ordinar
 ordinat
 organic
@@ -2930,7 +2905,6 @@ plead
 pleas
 pleasure
 pledg
-plent
 plent
 plex
 plot
@@ -3209,7 +3183,6 @@ redis
 rediscover
 redistribut
 reduc
-reduc
 redundan
 redux
 ref
@@ -3234,7 +3207,6 @@ refurbish
 refus
 refut
 regain
-regard
 regard
 regex
 region
@@ -3360,7 +3332,6 @@ rip
 ris
 risk
 rival
-river
 river
 rnn
 road
@@ -3542,7 +3513,6 @@ sharp
 she
 shed
 sheet
-sheet
 shell
 shelter
 shift
@@ -3559,8 +3529,6 @@ shot
 should
 shout
 show
-show
-shrank
 shrank
 shrink
 shrunk
@@ -3576,7 +3544,6 @@ sign
 signal
 signatur
 signif
-signif
 silen
 silhouett
 silicon
@@ -3584,14 +3551,12 @@ sill
 silver
 similar
 simpl
-simpl
 simplic
 simplif
 simulat
 simultaneous
 since
 sincere
-sing
 sing
 singl
 singular
@@ -3614,7 +3579,6 @@ skill
 skip
 sky
 skype
-slack
 slack
 slain
 slam
@@ -3706,7 +3670,6 @@ speci
 special
 specializ
 specif
-specif
 spect
 spectr
 speculat
@@ -3726,7 +3689,6 @@ splend
 splic
 splin
 split
-spoil
 spoil
 spoke
 sponsor
@@ -3763,7 +3725,6 @@ stale
 stall
 stamp
 stand
-stand
 standard
 standby
 star
@@ -3798,7 +3759,6 @@ stock
 stoke
 stolen
 ston
-ston
 stood
 stoop
 stop
@@ -3822,7 +3782,6 @@ street
 stren
 strength
 stress
-stress
 stretch
 strick
 strict
@@ -3842,7 +3801,6 @@ stub
 stuck
 stud
 student
-studio
 studio
 stuff
 stumbl
@@ -3873,7 +3831,6 @@ suffic
 suffix
 suggest
 suit
-sull
 sull
 summ
 summa
@@ -3964,7 +3921,6 @@ tamper
 tangent
 tangibl
 tangl
-tap
 tap
 tar
 target
@@ -4183,7 +4139,6 @@ troubl
 tru
 true
 truncat
-truncat
 trunk
 trust
 truth
@@ -4219,7 +4174,6 @@ ubiquit
 ubuntu
 ugl
 ui
-uint
 uint
 ultimat
 ultra
@@ -4264,7 +4218,6 @@ urban
 urg
 urgen
 url
-url
 us
 usab
 usag
@@ -4276,7 +4229,6 @@ utf
 util
 utmost
 utter
-ux
 ux
 vacan
 vacat
@@ -4295,7 +4247,6 @@ vanit
 var
 variab
 variabl
-variad
 variad
 varianc
 variant
@@ -4373,8 +4324,6 @@ vouch
 vow
 vowel
 vpn
-vpn
-vr
 vr
 vs
 vue
