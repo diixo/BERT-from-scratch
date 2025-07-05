@@ -11,6 +11,7 @@ abid
 ability
 ablat
 able
+ably
 aboli
 abomina
 abort
@@ -37,6 +38,7 @@ access
 accident
 acclaim
 accommodat
+accompan
 accomplish
 accord
 account
@@ -44,8 +46,10 @@ accrue
 accumulat
 accur
 accus
+ace
 ache
 achiev
+acknowledg
 acoust
 acquaint
 acquies
@@ -60,6 +64,7 @@ activat
 actual
 actuat
 acute
+ad
 ada
 adapt
 add
@@ -75,9 +80,11 @@ adjectiv
 adjoin
 adjust
 admin
+administrat
 admir
 admiss
 admit
+admoni
 adobe
 adopt
 ador
@@ -90,6 +97,7 @@ advers
 advert
 advic
 advis
+advocat
 adware
 affab
 affair
@@ -4429,6 +4437,7 @@ wield
 wife
 wifi
 wiki
+wil
 wild
 will
 willing
@@ -5668,3 +5677,4 @@ zoom
 ##distanc
 ##apply
 ##appli
+##trie
