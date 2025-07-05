@@ -216,7 +216,7 @@ diixo = [
     'swish', 'swip', 'wise', 'ought', 'polar', 'bottle', 'neck', 'byte', 'kilo', 'peta', 'exaggerat', 'alert',
     'piece', 'kind', 'vexat', 'phase', 'bought', 'brought', 'apolog', 'apertur', 'bounc', 'apparent', 'huge',# 'lif', 'liv', 'lik', 'lin',
     'overlap', 'recap', 'tap', 'trap', 'trash', 'ball', 'tangent', 'apostrophe', 'anniversary', 'chunk', 'destruct',
-    'accord', 'head', 'ache', 'man', 'seo', 'skip', 'impos', 'detach', 'mandat', 'impossibl', 'roman', 'accomplish',
+    'accord', 'head', 'ache', 'man', 'seo', 'skip', 'impos', 'detach', 'mandat', 'impossib', 'roman', 'accomplish',
     'reproach', 'settl', 'setup', 'woman', 'upset', 'broach', 'destroy', 'destin', 'delta', 'hub', 'act', 'delv', 'acronym',
     'arti', 'ficial', 'art', 'artist', 'quarter', 'earth', 'carv', 'cart', 'thwart', 'arrogan', 'cascad', 'apart', 'revis',
     'quarrel', 'quaternion', 'quant', 'queer', 'queen', 'thunk', 'nail', 'apache', 'bird', 'reprehen', 'apartment',
@@ -361,7 +361,7 @@ diixo = [
     'ten', 'thrice', 'thrust', 'distanc', 'apply', 'appli', 'application', 'applicant', 'applicab', 'dispel', 'dispatch',
     'disorder', 'displac', 'displeas', 'disprov', 'disqualif', 'disregard', 'dissect', 'disseminat', 'disrespect', 'wil', 'ably',
     'accompan', 'ace', 'acknowledg', 'ad', 'administrat', 'admoni', 'advocat', 'int', 'integer', 'in', 'rav', 'recit',
-    'reckless', 'regex', 'integrat', 'tangibl', 'labour', 'levity', 'lex', 'medi', 'nifty', 'nigh',
+    'reckless', 'regex', 'integrat', 'tangibl', 'labour', 'levity', 'lex', 'medi', 'nifty', 'nigh', 'initializ',
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk

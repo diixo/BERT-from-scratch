@@ -78,7 +78,7 @@ hf_tokenizer = BertTokenizerFast(
     mask_token="[MASK]"
 )
 
-# hf_tokenizer.save_pretrained("./bert_small_tokenizer")
+hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
 
 def tokens_to_file():
