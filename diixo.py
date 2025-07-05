@@ -361,7 +361,8 @@ diixo = [
     'sought', 'strode', 'novitiat', 'occlusion', 'ocr', 'odious', 'our', 'sigmoid', 'note', 'lin', 'stolen', 'stoke', 'straiv',
     'ten', 'thrice', 'thrust', 'distanc', 'apply', 'appli', 'application', 'applicant', 'applicab', 'dispel', 'dispatch',
     'disorder', 'displac', 'displeas', 'disprov', 'disqualif', 'disregard', 'dissect', 'disseminat', 'disrespect', 'wil', 'ably',
-    'accompan', 'ace', 'acknowledg', 'ad', 'administrat', 'admoni', 'advocat',
+    'accompan', 'ace', 'acknowledg', 'ad', 'administrat', 'admoni', 'advocat', 'uint', 'int', 'integer', 'in', 'rav', 'recit',
+    'reckless', 'regex', 'integrat', 'tangibl', 'labour', 'levity', 'lex', 'medi', 'nifty', 'nigh',
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
     #'sit', worfklow, retargatable, disc, at, ace, lumin++, croach++, cry++, in, out, servicedesk, autodesk
@@ -487,7 +488,8 @@ word_pieces = [
     "##robot", "##descen", "##federat", "##scan", "##auto", "##info", "##duplicat", "##dream", "##hap", "##ran", "##spark",
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
-    "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", #"##ible", "##ibly", "##ility",
+    "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk",
+    # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led
     ]

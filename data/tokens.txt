@@ -2045,6 +2045,7 @@ impuden
 impuls
 impur
 imput
+in
 inasmuch
 inaugurat
 incent
@@ -2143,8 +2144,11 @@ instrument
 insuff
 insult
 insur
+int
 intact
+integer
 integr
+integrat
 intel
 intellect
 intelli
@@ -2287,6 +2291,7 @@ lab
 label
 labo
 laborator
+labour
 lace
 lack
 lag
@@ -2348,6 +2353,8 @@ letter
 level
 leverag
 leverat
+levity
+lex
 lexic
 lexic
 liab
@@ -2468,6 +2475,7 @@ measur
 mechan
 mechanic
 meddl
+medi
 media
 medic
 meditat
@@ -2632,6 +2640,8 @@ next
 ng
 nice
 niche
+nifty
+nigh
 night
 nine
 nlp
@@ -3153,6 +3163,7 @@ rat
 rather
 ratio
 rational
+rav
 ravel
 raw
 ray
@@ -3179,6 +3190,8 @@ recept
 recipe
 recipient
 reciproc
+recit
+reckless
 reckon
 recogni
 recommend
@@ -3223,6 +3236,7 @@ refut
 regain
 regard
 regard
+regex
 region
 regist
 regress
@@ -3948,6 +3962,7 @@ tall
 tam
 tamper
 tangent
+tangibl
 tangl
 tap
 tap
@@ -4204,6 +4219,7 @@ ubiquit
 ubuntu
 ugl
 ui
+uint
 uint
 ultimat
 ultra
@@ -5678,3 +5694,7 @@ zoom
 ##apply
 ##appli
 ##trie
+##ible
+##ibly
+##ility
+##walk
