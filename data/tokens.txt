@@ -42,7 +42,7 @@ accompan
 accomplish
 accord
 account
-accrue
+accru
 accumulat
 accur
 accus
@@ -891,6 +891,7 @@ corroborat
 corrupt
 cosin
 cost
+cot
 couch
 could
 counsel
@@ -1172,6 +1173,7 @@ dish
 disjoin
 disk
 dismal
+dismay
 dismiss
 disorder
 dispar
@@ -1291,8 +1293,10 @@ ebriet
 echo
 eclips
 ecma
+eco
 ecolog
 econom
+ecu
 ed
 edge
 edit
@@ -1349,6 +1353,7 @@ enabl
 enact
 encapsulat
 enchant
+encrypt
 encumb
 end
 endanger
@@ -1661,6 +1666,7 @@ foray
 forb
 forbear
 forbid
+forbor
 forc
 fore
 forebod
@@ -1688,6 +1694,7 @@ fortran
 fortun
 forum
 forward
+foster
 fought
 found
 four
@@ -1967,6 +1974,7 @@ howbeit
 html
 http
 hub
+hug
 huge
 human
 humbl
@@ -2335,6 +2343,7 @@ letter
 level
 leverag
 leverat
+levitat
 levity
 lex
 lexic
@@ -2532,6 +2541,7 @@ modif
 modul
 moment
 mon
+mone
 money
 mongo
 monitor
@@ -2587,7 +2597,7 @@ nam
 nano
 narrat
 narrow
-nascent
+nascen
 nation
 nativ
 natur
@@ -2621,6 +2631,7 @@ niche
 nifty
 nigh
 night
+nin
 nine
 nlp
 nltk
@@ -2634,6 +2645,9 @@ nominal
 nominat
 non
 noname
+none
+nonempt
+nonexisten
 nonsens
 noone
 nope
@@ -2659,9 +2673,11 @@ novitiat
 now
 nuance
 null
+num
 numb
 numer
 nurs
+nut
 oath
 obedien
 obey
@@ -2734,6 +2750,7 @@ optimiz
 option
 or
 oracle
+orchestrat
 order
 ordinal
 ordinar
@@ -2756,7 +2773,7 @@ outage
 outer
 outlast
 output
-outrage
+outrag
 over
 overlap
 overrid
@@ -2792,9 +2809,10 @@ parent
 park
 pars
 part
+partak
 particip
 particl
-particul
+particular
 partner
 pass
 passag
@@ -2833,7 +2851,7 @@ perceiv
 percent
 percept
 perchance
-perennially
+perennial
 perfect
 perform
 perhaps
@@ -2846,7 +2864,7 @@ permiss
 permit
 permut
 perpendicular
-perpetual
+perpetua
 perplex
 persever
 persist
@@ -3242,7 +3260,7 @@ remonstra
 remot
 remov
 render
-renoun
+renounc
 renovat
 renown
 rent
@@ -3599,6 +3617,7 @@ slim
 sling
 slip
 slit
+slither
 slop
 slot
 slow
@@ -3758,7 +3777,7 @@ stir
 stochast
 stock
 stoke
-stolen
+stole
 ston
 stood
 stoop
@@ -4420,6 +4439,7 @@ within
 without
 witness
 witt
+wiv
 wizard
 wlan
 woke
@@ -5648,3 +5668,5 @@ zoom
 ##ibly
 ##ility
 ##walk
+##instan
+##lemma
