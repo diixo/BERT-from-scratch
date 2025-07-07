@@ -868,6 +868,9 @@ categorized
 categorizes
 categorizing
 cater
+catered
+catering
+caters
 caught
 cause
 caused
@@ -1687,6 +1690,10 @@ delves
 demand
 demanded
 demanding
+democratize
+democratized
+democratizes
+democratizing
 demodulate
 demoes
 demoing
@@ -2849,6 +2856,8 @@ forward
 forwarded
 forwarding
 forwards
+foster
+fostered
 fosters
 fought
 found
@@ -7031,6 +7040,9 @@ unwraps
 unzip
 up
 up-to-date
+upcast
+upcasted
+upcasting
 upcoming
 upcycled
 upcycling
@@ -7371,16 +7383,11 @@ zooms
 .net4
 .net5
 .net6
-1080p
 128-bit
 128gb
-1440p
 16-bit
 16bit
 16gb
-1920x1200
-1920x1200px
-1920x1280
 1d
 2-d
 2-dimensional
@@ -8528,6 +8535,7 @@ bar
 bard
 barriers
 bars
+bart
 barycentric
 base-point
 baseline
@@ -12398,6 +12406,7 @@ forward-propagate
 forward-propagation
 forward-slashes
 forward-thinking
+fostering
 foundation
 foundational
 foundations
@@ -17301,6 +17310,7 @@ precipitous
 precipitously
 precise
 precision
+precisions
 preconceived
 preconditioned
 preconditioning
