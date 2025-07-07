@@ -383,6 +383,8 @@ band
 banish
 bank
 bar
+bargain
+bart
 bas
 base
 bash
@@ -590,6 +592,7 @@ cast
 catalog
 catch
 categor
+cater
 caught
 caus
 cautio
@@ -1047,6 +1050,7 @@ delusion
 delv
 demand
 demo
+democratiz
 demodulat
 demolish
 demonstra
@@ -2804,8 +2808,10 @@ paragraph
 parallax
 parallel
 param
+parcel
 pardon
 parent
+parity
 park
 pars
 part
@@ -5670,3 +5676,5 @@ zoom
 ##walk
 ##instan
 ##lemma
+##px
+##bart

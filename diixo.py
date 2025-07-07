@@ -362,7 +362,7 @@ diixo = [
     'accompan', 'ace', 'acknowledg', 'ad', 'administrat', 'admoni', 'advocat', 'int', 'integer', 'in', 'rav', 'recit',
     'reckless', 'regex', 'integrat', 'tangibl', 'labour', 'levity', 'lex', 'medi', 'nifty', 'nigh', 'initializ', 'slither', 'hug',
     'foster', 'cot', 'dismay', 'eco', 'ecu', 'encrypt', 'forbor', 'levitat', 'wiv', 'orchestrat', 'mone', 'nin', 'num', 'nut',
-    'partak',
+    'partak', 'bart', 'bargain', 'cater', 'democratiz', 'parity', 'parcel',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -490,6 +490,7 @@ word_pieces = [
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
+    "##px", "##bart",
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led
