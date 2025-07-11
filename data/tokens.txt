@@ -384,7 +384,9 @@ banish
 bank
 bar
 bargain
+barrier
 bart
+bary
 bas
 base
 bash
@@ -1760,7 +1762,9 @@ gamif
 gan
 gap
 garbag
+garbl
 garment
+garner
 gat
 gather
 gaug
@@ -3060,6 +3064,7 @@ propagat
 propensit
 proper
 prophe
+proponent
 proportion
 propos
 propriet
@@ -3699,6 +3704,7 @@ specif
 spect
 spectr
 speculat
+sped
 speech
 speed
 spel
@@ -5678,3 +5684,4 @@ zoom
 ##lemma
 ##px
 ##bart
+##nomic

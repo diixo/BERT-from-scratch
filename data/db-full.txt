@@ -8533,6 +8533,8 @@ banking
 banner
 bar
 bard
+bargaining
+bargains
 barriers
 bars
 bart
@@ -12594,6 +12596,8 @@ gan
 gap
 gaps
 garbage
+garble
+garbled
 garment
 gate
 gated
@@ -12783,6 +12787,7 @@ graceful
 gracious
 graciously
 graciousness
+gradated
 gradation
 gradations
 grade
@@ -13549,6 +13554,7 @@ inclines
 inclining
 inclusion
 inclusive
+inclusivity
 incognito
 incoherent
 incommoded
@@ -14765,6 +14771,7 @@ literal
 literals
 literary
 literate
+literately
 literates
 literature
 little-known
@@ -17598,6 +17605,8 @@ prophecy
 prophet
 prophetic
 prophetically
+proponent
+proponents
 proportion
 proportionably
 proportional
@@ -19121,6 +19130,7 @@ shapers
 shapes
 shaping
 shard
+sharding
 shards
 shareable
 shared_ptr
@@ -19582,6 +19592,7 @@ spectral
 spectrum
 speculation
 speculations
+speculative
 speech
 speech-enabled
 speech-to-text
