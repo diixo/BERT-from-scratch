@@ -291,7 +291,7 @@ diixo = [
     'averag', 'avatar', 'avert', 'autumn', 'associat', 'auxiliar', 'aton', 'atlas', 'boss', 'jira', 'jinja', 'add', 'addit', 'adept',
     'jott', 'jut', 'kotlin', 'kubernet', 'jdo', 'jest', 'dom', 'majest', 'jdk', 'jvm', 'jre', 'jwt', 'dbc', 'jpg', 'jpeg',
     'legac', 'legib', 'discount', 'discourag', 'discreet', 'led', 'amo', 'assail', 'crumbl', 'leap', 'baffl', 'flav', 'fixat',
-    'flew', 'flee', 'fled', 'fling', 'flirt', 'fly', 'focal', 'flutter', 'fli', 'afflict', 'affix', 'floor', 'flopp', 'five', 'flask',
+    'flew', 'flee', 'fled', 'fling', 'flirt', 'fly', 'focal', 'flutter', 'fli', 'afflict', 'affix', 'floor', 'flop', 'five', 'flask',
     'alternat', 'agent', 'agglomerat', 'agenc', 'agenda', 'again', 'against', 'volub', 'usb', 'blob', 'alike', 'alive', 'usab', 'usag',
     'tir', 'tiny', 'case', 'summ', 'succinct', 'stagnat', 'inst', 'instabil', 'upper', 'upped', 'geek', 'radio', 'raid', 'rail',
     'supper', 'dusk', 'dut', 'duo', 'dup', 'vis', 'lavish', 'entit', 'entic', 'jenkins', 'knack', 'keras', 'rag', 'gemini', 'ruby',
@@ -363,7 +363,7 @@ diixo = [
     'reckless', 'regex', 'integrat', 'tangibl', 'labour', 'levity', 'lex', 'medi', 'nifty', 'nigh', 'initializ', 'slither', 'hug',
     'foster', 'cot', 'dismay', 'eco', 'ecu', 'encrypt', 'forbor', 'levitat', 'wiv', 'orchestrat', 'mone', 'nin', 'num', 'nut',
     'partak', 'bart', 'bargain', 'cater', 'democratiz', 'parity', 'parcel', 'proponent', 'garbl', 'garner', 'barrier',
-    'bary', 'sped',
+    'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'blue', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -491,7 +491,7 @@ word_pieces = [
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
-    "##px", "##bart", "##nomic",
+    "##px", "##bart", "##nomic", "##based", "##mediat",
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led

@@ -2311,6 +2311,7 @@ encumbering
 encumbers
 end
 end-to-end
+endeavored
 endeavour
 endeavoured
 endeavouring
@@ -2620,6 +2621,7 @@ factored
 factorialize
 factorize
 factorized
+factorizes
 factually
 fade
 fade-in
@@ -3470,6 +3472,7 @@ instead
 instigate
 instigated
 instigates
+instituted
 instruct
 instructed
 instructing
@@ -4124,6 +4127,8 @@ necessarily
 necessary
 necessitate
 necessitated
+necessitates
+necessitating
 need
 needed
 needing
@@ -5166,6 +5171,9 @@ reconnect
 reconnected
 reconnects
 reconsider
+reconstitute
+reconstituted
+reconstitutes
 reconstruct
 reconstructed
 reconstructing
@@ -7192,6 +7200,7 @@ wanting
 wants
 warm
 warm-up
+warming
 warmup
 warn
 warned
@@ -7475,6 +7484,7 @@ accents
 accentuation
 acceptable
 acceptance
+acceptor
 accesses
 accessibility
 accessible
@@ -7871,6 +7881,7 @@ alphabetically
 alphabets
 alphanumeric
 alteration
+alterations
 alternately
 alternative
 alternatives
@@ -7992,6 +8003,7 @@ annotating
 annotation
 annotation-based
 annotations
+annotator
 announcement
 announcements
 announces
@@ -8706,6 +8718,8 @@ blaming
 blank
 blanket
 blanks
+blazing
+blazingly
 bleak
 blender
 blends
@@ -8738,6 +8752,7 @@ bloggers
 blogs
 bloom
 bloomed
+blue
 bluetooth
 blunder
 blundered
@@ -9200,6 +9215,7 @@ checklist
 checklists
 checkout
 checkpoint
+checkpointing
 checkpoints
 checksum
 checksums
@@ -9477,6 +9493,7 @@ collapsable
 collapse
 collapsible
 collapsing
+collator
 colleague
 colleagues
 collectedly
@@ -9949,6 +9966,7 @@ contract-oriented
 contracted
 contractibility
 contraction
+contractions
 contractor
 contracts
 contractual
@@ -10653,6 +10671,8 @@ deployment
 deployments
 deposit
 deposited
+deposition
+depositional
 depot
 deprecation
 depreciating
@@ -11167,6 +11187,7 @@ doors
 dos
 dose
 dot
+dot-product
 dotfiles
 doth
 dotnet
@@ -11772,6 +11793,7 @@ ever-growing
 every-day
 everyday
 everytime
+eviction
 evidence
 evidences
 evident
@@ -11997,6 +12019,8 @@ factorializing
 factories
 factoring
 factorization
+factorizations
+factorizing
 factors
 factory
 facts
@@ -12281,6 +12305,7 @@ flock
 flocks
 floor
 floppy
+flops
 flourishes
 flourishing
 flow-chart
@@ -12437,6 +12462,7 @@ frameguard
 framerate
 framerates
 frames
+frameset
 framework
 framework's
 frameworks
@@ -12833,6 +12859,7 @@ greatly
 greatness
 greed
 greedy
+green
 grep
 grid
 grid-search
@@ -12858,6 +12885,7 @@ groundwork
 group's
 groupby
 groupchats
+grouped-query
 groups
 growth
 grpc
@@ -13247,6 +13275,7 @@ human
 humane
 humanely
 humanity
+humans
 humble
 humbled
 humbling
@@ -14010,6 +14039,7 @@ interleaves
 interlinear
 intermediary
 intermediate
+intermediates
 intermission
 intermittent
 internal
@@ -15086,6 +15116,7 @@ matchers
 matepad
 material
 material-ui
+materializing
 materially
 materials
 maternal
@@ -15520,6 +15551,7 @@ monitors
 mono
 monochrome
 monogame
+monolingual
 monolithic
 monolithically
 monotonic
@@ -15640,6 +15672,7 @@ multi-paradigm
 multi-person
 multi-platform
 multi-purpose
+multi-query
 multi-range
 multi-scale
 multi-source
@@ -17163,6 +17196,7 @@ polymorphism
 polynomial
 polynomially
 polynomials
+polysemous
 polysemy
 polysynth
 pomp
@@ -18648,6 +18682,7 @@ rock
 roi
 role
 roles
+roleset
 rollable
 rollback
 rollbacks
@@ -18662,6 +18697,7 @@ rooted
 rootkit
 rootless
 roots
+rotary
 rotates
 rotation
 rotational
@@ -18990,6 +19026,7 @@ self-supervised
 self-taught
 self-testing
 self-training
+selfattention
 selfhosted
 selfhosting
 selfie
@@ -20991,6 +21028,8 @@ trillion
 trimming
 triple
 triples
+triplet
+triplets
 triumph
 triumphant
 triumphantly

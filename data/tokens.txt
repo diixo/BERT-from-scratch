@@ -127,6 +127,8 @@ agitat
 ago
 agree
 ahead
+ai
+aid
 aim
 air
 ajax
@@ -161,6 +163,7 @@ aloud
 alpha
 alphabet
 already
+alright
 also
 alter
 alternat
@@ -456,6 +459,7 @@ bit
 black
 blam
 blank
+blaz
 bleach
 bleak
 blend
@@ -469,6 +473,7 @@ blog
 bloom
 blossom
 blow
+blue
 blue
 blund
 blunt
@@ -1400,6 +1405,7 @@ entrap
 entre
 entreat
 entrench
+entrepreneur
 entrop
 entropic
 entrust
@@ -1643,7 +1649,7 @@ float
 flock
 flood
 floor
-flopp
+flop
 flourish
 flow
 fluctuat
@@ -1855,6 +1861,7 @@ gravit
 gray
 great
 greed
+green
 greet
 grep
 grew
@@ -2614,6 +2621,7 @@ navigat
 near
 neat
 necess
+necessitat
 neck
 need
 negat
@@ -3200,6 +3208,7 @@ reckon
 recogni
 recommend
 reconcil
+reconstitut
 record
 recover
 recruit
@@ -3379,6 +3388,7 @@ roman
 room
 root
 rose
+rota
 rotat
 rough
 round
@@ -4164,6 +4174,7 @@ trim
 tripl
 triumph
 trivial
+trod
 trodden
 trojan
 trop
@@ -5685,3 +5696,5 @@ zoom
 ##px
 ##bart
 ##nomic
+##based
+##mediat
