@@ -80,7 +80,7 @@ hf_tokenizer = BertTokenizerFast(
 
 hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
-print("tokenizer.sz=", hf_tokenizer.vocab_size)
+print(f"tokenizer.sz={hf_tokenizer.vocab_size}")
 
 ######################################################################
 

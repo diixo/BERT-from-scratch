@@ -449,7 +449,7 @@ big
 bigram
 bill
 bin
-binanc
+binar
 bind
 bing
 binom
@@ -1315,6 +1315,7 @@ dust
 dut
 dwel
 dwindl
+dy
 dynam
 each
 eager
@@ -1383,6 +1384,7 @@ emphas
 emphat
 empir
 employ
+empower
 empt
 emulat
 enabl
@@ -3812,6 +3814,7 @@ stack
 staff
 stag
 stagnat
+staid
 stair
 stak
 stakeholder
@@ -4133,7 +4136,7 @@ tinker
 tiny
 tion
 tip
-tir
+tire
 titl
 to
 today
@@ -4275,6 +4278,7 @@ ubiquit
 ubuntu
 ugl
 ui
+uid
 uint
 ultimat
 ultra
@@ -4464,7 +4468,9 @@ wear
 weather
 web
 webinar
+wed
 wedg
+wednesday
 week
 weigh
 weight
@@ -4496,6 +4502,7 @@ white
 whither
 who
 whole
+whom
 whop
 why
 wick
@@ -5778,3 +5785,6 @@ zoom
 ##ies
 ##enc
 ##ent
+##coin
+##only
+##gl

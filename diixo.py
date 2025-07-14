@@ -109,7 +109,7 @@ diixo = [
     'concret', 'liter', 'curio', 'recur', 'obscur', 'translat', 'rectif', 'transit', 'recurs', 'transcrib', 'transist', 'resist',
     'resilien', 'silen', 'silhouett', 'resid', 'resident', 'resonat', 'restor', 'restart', 'restat', 'restrict', 'restruct', 'submit',
     'restaurant', 'rest', 'purchas', 'restrain', 'exploit', 'affab', 'fail', 'explod', 'result', 'resum', 'resurrect', 'host', 'grab',
-    'ghost', 'hospit', 'hook', 'imag', 'absorb', 'climb', 'describ', 'descen', 'condens', 'deriv', 'binanc', 'disturb', 'glob',
+    'ghost', 'hospit', 'hook', 'imag', 'absorb', 'climb', 'describ', 'descen', 'condens', 'deriv', 'disturb', 'glob',
     'sell', 'bestow', 'best', 'beta', 'echo', 'semaphor', 'shot', 'shoot', 'short', 'screw', 'turn', 'truth', 'try', 'geo', 'sympath',
     'advanc', 'advantag', 'isolat', 'adventur', 'adorn', 'gestur', 'shift', 'shock', 'shin', 'snap', 'diminish', 'dimens', 'embod',
     'ember', 'emblem', 'deceiv', 'member', 'embrac', 'melod', 'embellish', 'emerg', 'contain', 'novel', 'novic', 'tool', 'toggl', 'token',
@@ -293,7 +293,7 @@ diixo = [
     'legac', 'legib', 'discount', 'discourag', 'discreet', 'led', 'amo', 'assail', 'crumbl', 'leap', 'baffl', 'flav', 'fixat',
     'flew', 'flee', 'fled', 'fling', 'flirt', 'fly', 'focal', 'flutter', 'fli', 'afflict', 'affix', 'floor', 'flop', 'five', 'flask',
     'alternat', 'agent', 'agglomerat', 'agenc', 'agenda', 'again', 'against', 'volub', 'usb', 'blob', 'alike', 'alive', 'usab', 'usag',
-    'tir', 'tiny', 'case', 'summ', 'succinct', 'stagnat', 'inst', 'instabil', 'upper', 'upped', 'geek', 'radio', 'raid', 'rail',
+    'tire', 'tiny', 'case', 'summ', 'succinct', 'stagnat', 'inst', 'instabil', 'upper', 'upped', 'geek', 'radio', 'raid', 'rail',
     'supper', 'dusk', 'dut', 'duo', 'dup', 'vis', 'lavish', 'entit', 'entic', 'jenkins', 'knack', 'keras', 'rag', 'gemini', 'ruby',
     'rude', 'crucial', 'prun', 'obtrud', 'pruden', 'impuls', 'rubber', 'upbraid', 'rudimen', 'rugged', 'latin', 'impuden', 'crude',
     'impur', 'imput', 'lag', 'lap', 'laps', 'scap', 'lan', 'lash', 'splash', 'plagued', 'clash', 'clarity', 'laz', 'leverat',
@@ -369,7 +369,7 @@ diixo = [
     'deteriorat', 'facet', 'id', 'ide', 'idle', 'enlight', 'enliv', 'function', 'functor', 'lot', 'lost', 'loss', 'tongue',
     'cent', 'insent', 'insens', 'disc', 'disclaim', 'disconnect', 'discontinu', 'discompos', 'disconcert', 'discharg',
     'discontent', 'minimiz', 'minimal', 'misfit', 'offline', 'maxim', 'automat', 'maybe', 'desult', 'today', 'supersed',
-    'using', 'verg', 'usa',
+    'using', 'verg', 'usa', 'binar', 'dy', 'staid', 'uid', 'whom', 'wed', 'wednesday', 'empower',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -498,7 +498,7 @@ word_pieces = [
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
     "##px", "##bart", "##nomic", "##based", "##mediat", "##strap", "##ance", "##currenc", "##iate", "##iation", "##iating",
-    "##ary", "##ence", "##ency", "##ifi", "##oid", "##ily", "##item", "##ial", "##ies", "##enc", "##ent",
+    "##ary", "##ence", "##ency", "##ifi", "##oid", "##ily", "##item", "##ial", "##ies", "##enc", "##ent", "##coin", "##only", "##gl",
     #"##ize", "##ized", "##izes",
     # ic-ical-ically
     ##go, all
