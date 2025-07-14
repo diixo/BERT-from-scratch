@@ -322,7 +322,7 @@ diixo = [
     'bert', 'brak', 'beg', 'bat', 'combat', 'perturb', 'basis', 'perus', 'awful', 'awk', 'axis', 'axes', 'cad', 'brack', 'comfy',
     'nominat', 'normaliz', 'reckon', 'north', 'east', 'south', 'prosper', 'typ', 'shall', 'sci', 'sky', 'sneer', 'sober',
     'solitar', 'student', 'tab', 'pip', 'pipe', 'stab', 'pit', 'son', 'languag', 'marriag', 'packag', 'patronag', 'passag',
-    'congress', 'congruent', 'paid', 'cron', 'crm', 'sit', 'requisit', 'adware', 'affair', 'cli', 'aws', 'bios', 'cmd', 'cms',
+    'congress', 'congruen', 'paid', 'cron', 'crm', 'sit', 'requisit', 'adware', 'affair', 'cli', 'aws', 'bios', 'cmd', 'cms',
     'cnn', 'cobol', 'cocoa', 'coaxial', 'allianc', 'angel', 'attenuat', 'brevity', 'apt', 'candidat', 'canvas', 'dig', 'dilut',
     'dignit', 'aptly', 'anew', 'candid', 'despit', 'plausib', 'clause', 'creden', 'credib', 'cri', 'descri', 'ajax', 'aka',
     'alacrit', 'alack', 'differentia', 'die', 'dirt', 'dire', 'domestic', 'doth', 'dread', 'return', 'river', 'obedien', 'dole',
@@ -364,7 +364,8 @@ diixo = [
     'foster', 'cot', 'dismay', 'eco', 'ecu', 'encrypt', 'forbor', 'levitat', 'wiv', 'orchestrat', 'mone', 'nin', 'num', 'nut',
     'partak', 'bart', 'bargain', 'cater', 'democratiz', 'parity', 'parcel', 'proponent', 'garbl', 'garner', 'barrier',
     'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
-    'uri', 'onto', '3rd', 'impecc', 'distro', 'inferen', 'insid',
+    'uri', 'onto', '3rd', 'impecc', 'distro', 'inferen', 'insid', 'tattl', 'engineer', 'exp', 'eng', 'engulf', 'binom',
+    'colloquial', 'confiden', 'collocat', 'terra', 'dignif', 'ceo',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -486,13 +487,14 @@ word_pieces = [
     "##perfect", "##precis", "##proper", "##propriet", "##probab", "##prim", "##ident", "##pruden", "##describ", "##finit", "##flam",
     "##habit", "##leav", "##judg", "##lac", "##pod", "##meet", "##led", "##mission", "##do", "##sheet", "##card", "##put",
     "##flect", "##stamp", "##gono", "##ask", "##bias", "##mean", "##flex", "##fluen", "##flux", "##delic", "##definit", "##decisi",
-    "##fatig", "##congruent", "##polit", "##migrat", "##polar", "##vis", "##itera", "##technolog", "##conform", "##did", "##spread",
+    "##fatig", "##congruen", "##polit", "##migrat", "##polar", "##vis", "##itera", "##technolog", "##conform", "##did", "##spread",
     "##length", "##let", "##bot", "##driver", "##block", "##battle", "##qualit", "##school", "##sprint", "##styl", "##review",
     "##robot", "##descen", "##federat", "##scan", "##auto", "##info", "##duplicat", "##dream", "##hap", "##ran", "##spark",
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
-    "##px", "##bart", "##nomic", "##based", "##mediat", "##strap", "##ance", "##currenc",
+    "##px", "##bart", "##nomic", "##based", "##mediat", "##strap", "##ance", "##currenc", "##iate", "##iation", "##iating",
+    "##ary", "##ence", "##ency", "##ifi", "##oid"
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led

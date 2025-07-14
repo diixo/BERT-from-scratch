@@ -451,6 +451,7 @@ bin
 binanc
 bind
 bing
+binom
 bio
 bion
 bios
@@ -610,6 +611,7 @@ celebrat
 cell
 center
 centr
+ceo
 ceremon
 certain
 certif
@@ -713,6 +715,8 @@ college
 collid
 collinear
 collis
+collocat
+colloquial
 collud
 collung
 colon
@@ -801,6 +805,7 @@ confer
 conferenc
 confes
 confid
+confiden
 config
 confin
 confirm
@@ -817,7 +822,7 @@ congratulat
 congregat
 congress
 congru
-congruent
+congruen
 conjectur
 conjuga
 conjunct
@@ -1144,6 +1149,7 @@ diffiden
 diffus
 dig
 digit
+dignif
 dignit
 dilat
 dilemma
@@ -1376,9 +1382,12 @@ endur
 enem
 energ
 enforc
+eng
 engag
 engine
+engineer
 engross
+engulf
 enhanc
 enjoy
 enlarg
@@ -1494,6 +1503,7 @@ exif
 exigen
 exist
 exit
+exp
 expand
 expans
 expect
@@ -3973,6 +3983,7 @@ tar
 target
 task
 tast
+tattl
 taught
 tax
 tea
@@ -4006,6 +4017,7 @@ term
 termin
 terminal
 terminat
+terra
 terrain
 terribl
 terrif
@@ -5632,7 +5644,7 @@ zoom
 ##definit
 ##decisi
 ##fatig
-##congruent
+##congruen
 ##polit
 ##migrat
 ##polar
@@ -5708,3 +5720,11 @@ zoom
 ##strap
 ##ance
 ##currenc
+##iate
+##iation
+##iating
+##ary
+##ence
+##ency
+##ifi
+##oid
