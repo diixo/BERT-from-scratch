@@ -2,7 +2,7 @@
 import json
 from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders
 from tokenizers.pre_tokenizers import ByteLevel, BertPreTokenizer
-from transformers import BertTokenizerFast
+from transformers import BertTokenizerFast, AutoTokenizer
 from tokenizers.normalizers import BertNormalizer
 from diixo import create_vocab
 
@@ -25,7 +25,7 @@ def vocab_tokenizer():
 
 
     initial_alphabet = ByteLevel.alphabet()
-    initial_alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789+-./_")
+    initial_alphabet = list("&\'abcdefghijklmnopqrstuvwxyz0123456789+-./_")
     ext_alphabet = ["##a", "##b", "##c", "##d", "##e", "##f", "##g", "##h", "##i", "##j", "##k", "##l", "##m",
                     "##n", "##o", "##p", "##q", "##r", "##s", "##t", "##u", "##v", "##w", "##x", "##y", "##z"]
 
@@ -80,6 +80,10 @@ hf_tokenizer = BertTokenizerFast(
 
 hf_tokenizer.save_pretrained("./bert_small_tokenizer")
 
+######################################################################
+
+bge_tokenizer = AutoTokenizer.from_pretrained("BAAI/bge-large-en")
+gte_tokenizer = AutoTokenizer.from_pretrained("thenlper/gte-large")
 
 def tokens_to_file():
     with open("data/db-full.txt", "r", encoding="utf-8") as f:

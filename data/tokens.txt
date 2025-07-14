@@ -2744,6 +2744,7 @@ once
 one
 onerous
 only
+onto
 opaci
 opaque
 open
@@ -4260,6 +4261,7 @@ uptill
 urban
 urg
 urgen
+uri
 url
 us
 usab

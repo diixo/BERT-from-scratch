@@ -364,6 +364,7 @@ diixo = [
     'foster', 'cot', 'dismay', 'eco', 'ecu', 'encrypt', 'forbor', 'levitat', 'wiv', 'orchestrat', 'mone', 'nin', 'num', 'nut',
     'partak', 'bart', 'bargain', 'cater', 'democratiz', 'parity', 'parcel', 'proponent', 'garbl', 'garner', 'barrier',
     'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'blue', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
+    'uri', 'onto',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
