@@ -354,6 +354,7 @@ auth
 authent
 author
 auto
+automat
 autonom
 autumn
 auxiliar
@@ -609,6 +610,7 @@ ceas
 ceil
 celebrat
 cell
+cent
 center
 centr
 ceo
@@ -1119,6 +1121,7 @@ destin
 destination
 destroy
 destruct
+desult
 detach
 detail
 detain
@@ -1175,10 +1178,18 @@ dirt
 dis
 disabl
 disappoint
+disc
 discard
 discern
+discharg
 disciplin
+disclaim
 disclos
+discompos
+disconcert
+disconnect
+discontent
+discontinu
 discord
 discount
 discourag
@@ -1768,6 +1779,7 @@ fumbl
 fun
 func
 function
+functor
 fund
 fundament
 funder
@@ -2154,6 +2166,8 @@ inquir
 inquisit
 inroad
 insan
+insens
+insent
 insert
 insid
 insight
@@ -2437,6 +2451,9 @@ loom
 loop
 loose
 los
+loss
+lost
+lot
 loud
 lov
 low
@@ -2499,7 +2516,9 @@ matrix
 matter
 matur
 max
+maxim
 may
+maybe
 meal
 mean
 measur
@@ -2555,6 +2574,8 @@ mine
 mini
 miniatur
 minif
+minimal
+minimiz
 minor
 minus
 minute
@@ -2563,6 +2584,7 @@ mirth
 mis
 miscellaneous
 miser
+misfit
 miss
 mission
 misspel
@@ -2759,8 +2781,9 @@ offenc
 offend
 offens
 offer
-offic
-official
+office
+officia
+offline
 offset
 often
 ok
@@ -3088,7 +3111,7 @@ project
 proliferat
 prolog
 prolong
-prominen
+promin
 promis
 promot
 prompt
@@ -3912,6 +3935,7 @@ sun
 sung
 sunk
 super
+supersed
 supervis
 supper
 suppl
@@ -4112,6 +4136,7 @@ tip
 tir
 titl
 to
+today
 together
 toggl
 token
@@ -4121,6 +4146,7 @@ tolerat
 tomorrow
 tone
 tong
+tongue
 too
 took
 tool
@@ -4295,11 +4321,13 @@ urgen
 uri
 url
 us
+usa
 usab
 usag
 usb
 use
 user
+using
 usual
 utf
 util
@@ -4343,6 +4371,7 @@ verb
 verbal
 verbos
 verdur
+verg
 veri
 verif
 verity
@@ -5748,3 +5777,4 @@ zoom
 ##ial
 ##ies
 ##enc
+##ent

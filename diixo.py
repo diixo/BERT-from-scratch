@@ -45,7 +45,7 @@ diixo = [
     'arithmet', 'asymptot', 'typical', 'semantic', 'specif', 'strateg', 'synthet', 'vocal', 'practi', 'public', 'topic',
     'vertic', 'numer', 'paradox', 'optimis', 'monolith', 'reciproc', 'scien', 'synonym', 'critic', 'ellip', 'drastic', 'extrinsic',
     'phonet', 'physic', 'monoton', 'suspic', 'suffic', 'stratif', 'stochast', 'stick', 'splic', 'spher', 'spars', 'sophisticat',
-    'complicat', 'predict', 'offic', 'strict', 'ficat', 'twice', 'trick', 'traff', 'tick', 'thick', 'theor', 'communic', 'symbol',
+    'complicat', 'predict', 'office', 'strict', 'ficat', 'twice', 'trick', 'traff', 'tick', 'thick', 'theor', 'communic', 'symbol',
     'solicit', 'small', 'smart', 'devic', 'certif', 'atmo', 'amplif', 'clarif', 'classif', 'codif', 'dens', 'densif', 'diversif',
     'electrif', 'gamif', 'gratif', 'identif', 'justif', 'minif', 'modif', 'mortif', 'notif', 'quantif', 'simplif', 'unif',
     'verif', 'notic', 'pric', 'voic', 'which', 'academ', 'addict', 'advic', 'alpha', 'trop', 'applic', 'articl', 'ticket',
@@ -151,7 +151,7 @@ diixo = [
     'autonom', 'steep', 'pair', 'parallel', 'pardon', 'phras', 'passiv', 'repetit', 'php', 'storm', 'brain', 'branch', 'batch',
     'batter', 'replac', 'famil', 'battle', 'bayes', 'false', 'exult', 'extrem', 'extern', 'exterior', 'devot', 'dexter',
     'extenuat', 'extinguish', 'glyph', 'glow', 'agree', 'agitat', 'flex', 'plex', 'inflect', 'fleet', 'inflat', 'perplex',
-    'multiplay', 'particip', 'particular', 'perpendicular', 'persever', 'precipit', 'precis', 'preclud', 'prolong', 'prominen', 'prolog',
+    'multiplay', 'particip', 'particular', 'perpendicular', 'persever', 'precipit', 'precis', 'preclud', 'prolong', 'promin', 'prolog',
     'prohibit', 'procur', 'proceed', 'procedur', 'primitiv', 'princip', 'prevent', 'presum', 'pressur', 'premis', 'preliminar',
     'prejudic', 'prais', 'possess', 'postgres', 'multipl', 'multiplatform', 'multiplex', 'multiple', 'templat', 'temperatur',
     'tempor', 'temper', 'tempt', 'truncat', 'true', 'correlat', 'correspond', 'corrupt', 'tradition', 'patien',
@@ -336,7 +336,7 @@ diixo = [
     'qa', 'py', 'pyramid', 'cord', 'indub', 'invasi', 'induc', 'infatuat', 'redis', 'toward', 'synchron', 'redistribut',
     'rediscover', 'reif', 'reign', 'arrear', 'subdu', 'susceptib', 'ui', 'quart', 'bi', 'cam', 'age', 'bifurcat',
     'bigram', 'dilemma', 'deni', 'diagonal', 'dismal', 'dispar', 'disposit', 'proportion', 'enact', 'combo', 'sull',
-    'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl', 'mirth', 'un', 'official', 'polish', 'requit',
+    'consign', 'consolidat', 'consort', 'innoc', 'derang', 'whether', 'whistl', 'mirth', 'un', 'officia', 'polish', 'requit',
     'supervis', 'tenabl', 'upend', '1d', '2d', '3d', 'upp', 'uptill', 'urgen', 'var', 'verbal', 'verdur', 'versatil', 'veto',
     'victim', 'vital', 'vivac', 'vow', 'vowel', 'studio', 'min', 'mine', 'multiplicat', 'mus', 'nab', 'endear',
     'endanger', 'constru', 'newb', 'another', 'together', 'weather', 'counter', 'protract', 'retract', 'artificial', 'supplant',
@@ -366,7 +366,10 @@ diixo = [
     'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
     'uri', 'onto', '3rd', 'impecc', 'distro', 'inferen', 'insid', 'tattl', 'engineer', 'exp', 'eng', 'engulf', 'binom',
     'colloquial', 'confiden', 'collocat', 'terra', 'dignif', 'ceo', 'cue', 'daily', 'co', 'copilot', 'com', 'comm', 'worn',
-    'deteriorat', 'facet', 'id', 'ide', 'idle', 'enlight', 'enliv', 'function',
+    'deteriorat', 'facet', 'id', 'ide', 'idle', 'enlight', 'enliv', 'function', 'functor', 'lot', 'lost', 'loss', 'tongue',
+    'cent', 'insent', 'insens', 'disc', 'disclaim', 'disconnect', 'discontinu', 'discompos', 'disconcert', 'discharg',
+    'discontent', 'minimiz', 'minimal', 'misfit', 'offline', 'maxim', 'automat', 'maybe', 'desult', 'today', 'supersed',
+    'using', 'verg', 'usa',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -495,7 +498,8 @@ word_pieces = [
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
     "##px", "##bart", "##nomic", "##based", "##mediat", "##strap", "##ance", "##currenc", "##iate", "##iation", "##iating",
-    "##ary", "##ence", "##ency", "##ifi", "##oid", "##ily", "##item", "##ial", "##ies", "##enc",
+    "##ary", "##ence", "##ency", "##ifi", "##oid", "##ily", "##item", "##ial", "##ies", "##enc", "##ent",
+    #"##ize", "##ized", "##izes",
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led
