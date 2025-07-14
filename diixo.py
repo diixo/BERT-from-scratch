@@ -290,7 +290,7 @@ diixo = [
     'arduous', 'samsung', 'ops', 'pop', 'dev', 'devis', 'deviat', 'detract', 'devoid', 'opaque', 'opaci', 'devalu', 'devastat', 'azure',
     'averag', 'avatar', 'avert', 'autumn', 'associat', 'auxiliar', 'aton', 'atlas', 'boss', 'jira', 'jinja', 'add', 'addit', 'adept',
     'jott', 'jut', 'kotlin', 'kubernet', 'jdo', 'jest', 'dom', 'majest', 'jdk', 'jvm', 'jre', 'jwt', 'dbc', 'jpg', 'jpeg',
-    'legac', 'legib', 'discount', 'discourag', 'discreet', 'led', 'amo', 'assail', 'crumbl', 'leap', 'baffl', 'flav', 'fixat',
+    'legacy', 'legibl', 'discount', 'discourag', 'discreet', 'led', 'amo', 'assail', 'crumbl', 'leap', 'baffl', 'flav', 'fixat',
     'flew', 'flee', 'fled', 'fling', 'flirt', 'fly', 'focal', 'flutter', 'fli', 'afflict', 'affix', 'floor', 'flop', 'five', 'flask',
     'alternat', 'agent', 'agglomerat', 'agenc', 'agenda', 'again', 'against', 'volub', 'usb', 'blob', 'alike', 'alive', 'usab', 'usag',
     'tire', 'tiny', 'case', 'summ', 'succinct', 'stagnat', 'inst', 'instabil', 'upper', 'upped', 'geek', 'radio', 'raid', 'rail',
@@ -369,7 +369,8 @@ diixo = [
     'deteriorat', 'facet', 'id', 'ide', 'idle', 'enlight', 'enliv', 'function', 'functor', 'lot', 'lost', 'loss', 'tongue',
     'cent', 'insent', 'insens', 'disc', 'disclaim', 'disconnect', 'discontinu', 'discompos', 'disconcert', 'discharg',
     'discontent', 'minimiz', 'minimal', 'misfit', 'offline', 'maxim', 'automat', 'maybe', 'desult', 'today', 'supersed',
-    'using', 'verg', 'usa', 'binar', 'dy', 'staid', 'uid', 'whom', 'wed', 'wednesday', 'empower',
+    'using', 'verg', 'usa', 'binar', 'dy', 'staid', 'uid', 'whom', 'wed', 'wednesday', 'empower', 'exchang', 'exclaim',
+    'incessant', 'enorm', 'enmit', 'en', 'indict', 'iot', 'lane', 'paramet',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -499,7 +500,8 @@ word_pieces = [
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
     "##px", "##bart", "##nomic", "##based", "##mediat", "##strap", "##ance", "##currenc", "##iate", "##iation", "##iating",
     "##ary", "##ence", "##ency", "##ifi", "##oid", "##ily", "##item", "##ial", "##ies", "##enc", "##ent", "##coin", "##only", "##gl",
-    #"##ize", "##ized", "##izes",
+    #"##ize", "##ized", "##izes", "##iza"
+    # "##token",
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led

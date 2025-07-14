@@ -1387,6 +1387,7 @@ employ
 empower
 empt
 emulat
+en
 enabl
 enact
 encapsulat
@@ -1413,6 +1414,8 @@ enjoy
 enlarg
 enlight
 enliv
+enmit
+enorm
 enough
 enquir
 enroll
@@ -1508,7 +1511,9 @@ exceed
 excel
 except
 excess
+exchang
 excit
+exclaim
 exclud
 exclus
 exclusiv
@@ -2098,6 +2103,7 @@ inasmuch
 inaugurat
 incent
 incept
+incessant
 inch
 incident
 incit
@@ -2118,6 +2124,7 @@ indent
 index
 indic
 indicat
+indict
 indign
 individual
 indolen
@@ -2253,6 +2260,7 @@ invok
 involv
 ion
 ios
+iot
 iris
 irksome
 irrational
@@ -2350,6 +2358,7 @@ lambd
 lan
 lanc
 land
+lane
 lang
 languag
 lap
@@ -2385,10 +2394,10 @@ leav
 lect
 led
 left
-legac
+legacy
 legal
 legend
-legib
+legibl
 legitim
 lemma
 lend
@@ -2874,6 +2883,7 @@ paragraph
 parallax
 parallel
 param
+paramet
 parcel
 pardon
 parent
