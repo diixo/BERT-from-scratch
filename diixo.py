@@ -1,6 +1,6 @@
 
 diixo = [
-    'able', 'al', 'all', 'ally', 'also', 'an', 'and', 'any', 'are', 'as', 'ask', 'be', 'fall',
+    'able', 'al', 'all', 'ally', 'also', 'an', 'and', 'any', 'are', 'as', 'ask', 'be', 'fall', 'ty',
     'because', 'but',
     'can', 'caus', 'class', 'code', 'come', 'commit', 'common', 'could',
     'day', 'did', 'do', 'doubt', 'down', 'drama', 'draw',
@@ -363,7 +363,7 @@ diixo = [
     'reckless', 'regex', 'integrat', 'tangibl', 'labour', 'levity', 'lex', 'medi', 'nifty', 'nigh', 'initializ', 'slither', 'hug',
     'foster', 'cot', 'dismay', 'eco', 'ecu', 'encrypt', 'forbor', 'levitat', 'wiv', 'orchestrat', 'mone', 'nin', 'num', 'nut',
     'partak', 'bart', 'bargain', 'cater', 'democratiz', 'parity', 'parcel', 'proponent', 'garbl', 'garner', 'barrier',
-    'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'blue', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
+    'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
     'uri', 'onto',
 
     # privacy, propp, propensit, propropeller
@@ -492,7 +492,7 @@ word_pieces = [
     "##arch", "##found", "##gb", "##deem", "##tell", "##ball", "##even", "##equivocal", "##favo", "##finish", "##fath", "##topic",
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
-    "##px", "##bart", "##nomic", "##based", "##mediat",
+    "##px", "##bart", "##nomic", "##based", "##mediat", "##strap",
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led

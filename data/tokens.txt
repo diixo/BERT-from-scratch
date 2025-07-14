@@ -474,7 +474,6 @@ bloom
 blossom
 blow
 blue
-blue
 blund
 blunt
 blur
@@ -4210,6 +4209,7 @@ twitch
 twitter
 two
 txt
+ty
 typ
 type
 typical
@@ -5700,3 +5700,4 @@ zoom
 ##nomic
 ##based
 ##mediat
+##strap
