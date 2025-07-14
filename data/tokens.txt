@@ -9,7 +9,7 @@ abbreviat
 aberrant
 abhor
 abid
-ability
+abilit
 ablat
 able
 ably
@@ -689,6 +689,7 @@ cmd
 cmos
 cms
 cnn
+co
 coach
 coaxial
 cobol
@@ -723,6 +724,7 @@ colon
 color
 colour
 column
+com
 combat
 combin
 combo
@@ -730,6 +732,7 @@ come
 comfort
 comfy
 coming
+comm
 comma
 command
 commenc
@@ -891,6 +894,7 @@ cooperat
 coordinat
 cope
 copi
+copilot
 copy
 cord
 core
@@ -955,6 +959,7 @@ crystal
 css
 cub
 cuda
+cue
 cull
 culminat
 cultivat
@@ -975,6 +980,7 @@ cyber
 cycl
 dabbl
 daemon
+daily
 damag
 damp
 danc
@@ -1117,6 +1123,7 @@ detach
 detail
 detain
 detect
+deteriorat
 determin
 detract
 dev
@@ -1391,6 +1398,8 @@ engulf
 enhanc
 enjoy
 enlarg
+enlight
+enliv
 enough
 enquir
 enroll
@@ -1547,6 +1556,7 @@ fabl
 fabric
 fac
 face
+facet
 facilit
 fact
 factor
@@ -1757,6 +1767,7 @@ full
 fumbl
 fun
 func
+function
 fund
 fundament
 funder
@@ -2018,11 +2029,14 @@ hyper
 hypoth
 ic
 icon
+id
+ide
 idea
 ideal
 ident
 identif
 idiom
+idle
 idol
 ight
 ignit
@@ -4380,7 +4394,7 @@ volatil
 volt
 volub
 volum
-volunt
+voluntar
 vot
 vouch
 vow
@@ -4495,6 +4509,7 @@ wor
 word
 work
 world
+worn
 worr
 wors
 worship
@@ -5441,7 +5456,7 @@ zoom
 ##posit
 ##oper
 ##visib
-##volunt
+##voluntar
 ##cell
 ##batch
 ##computer
@@ -5728,3 +5743,8 @@ zoom
 ##ency
 ##ifi
 ##oid
+##ily
+##item
+##ial
+##ies
+##enc

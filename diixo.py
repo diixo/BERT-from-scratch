@@ -76,7 +76,7 @@ diixo = [
     'unifi', 'unicorn', 'unicode', 'jump', 'quiet', 'stream', 'ignit', 'fuck', 'guarante', 'digit', 'ignor', 'main', 'remain',
     'mainfram', 'mainten', 'domain', 'document', 'debut', 'debat', 'crowd', 'depend', 'doc', 'found', 'dock', 'funder', 'thunder',
     'pseudo', 'depict', 'depart', 'department', 'fund', 'fundament', 'sampl', 'doctrin', 'blund', 'requi', 'same', 'inert', 'maintain',
-    'etern', 'achiev', 'adapt', 'afford', 'approach', 'attain', 'attack', 'avail', 'ability', 'capab', 'compar', 'component', 'puls',
+    'etern', 'achiev', 'adapt', 'afford', 'approach', 'attain', 'attack', 'avail', 'abilit', 'capab', 'compar', 'component', 'puls',
     'contriv', 'custom', 'detain', 'embed', 'embark', 'exec', 'idea', 'ideal', 'migrat', 'accur', 'index', 'inspir', 'measur', 'must', 'www',
     'profil', 'profit', 'reach', 'read', 'cours', 'relevan', 'remot', 'remov', 'repeat', 'separ', 'stabil', 'suggest', 'suit', 'sql',
     'sustain', 'swap', 'train', 'void', 'avoid', 'pool', 'variab', 'thesis', 'thread', 'spool', 'accept', 'viab', 'spoon', 'spoof', 'accent',
@@ -268,7 +268,7 @@ diixo = [
     # 'how',#'nomin',#'rat',
     'october', 'december', 'june', 'july', 'august', 'september', 'november', 'march', 'february', 'april', 'january', 'haul',
     'poor', 'pros', 'prospect', 'revel', 'rush', 'salar', 'spar', 'spark', 'genet', 'spawn', 'treasur', 'spirit', 'big', 'tip', 'inno',
-    'tread', 'trifl', 'vouch', 'vot', 'volunt', 'spit', 'bit', 'habit', 'zip', 'hop', 'chop', 'chose', 'walk', 'wak', 'nerv',
+    'tread', 'trifl', 'vouch', 'vot', 'voluntar', 'spit', 'bit', 'habit', 'zip', 'hop', 'chop', 'chose', 'walk', 'wak', 'nerv',
     'ingrat', 'conclud', 'ingest', 'date', 'dat', 'commend', 'daughter', 'commenc', 'daunt', 'ingen', 'dawdl', 'predecess',
     'concess', 'damp', 'danc', 'dabbl', 'dar', 'lidar', '.js', 'ddr', 'preserv', 'prepend', 'prett', 'primar', 'lanc', 'knew', 'king',
     'intend', 'intens', 'intent', 'peak', 'peac', 'wreak', 'lurk', 'trunk', 'peculiar', 'peer', 'peek', 'peep', 'penal',
@@ -365,7 +365,8 @@ diixo = [
     'partak', 'bart', 'bargain', 'cater', 'democratiz', 'parity', 'parcel', 'proponent', 'garbl', 'garner', 'barrier',
     'bary', 'sped', 'blaz', 'trod', 'reconstitut', 'aid', 'ai', 'green', 'alright', 'rota', 'necessitat', 'entrepreneur',
     'uri', 'onto', '3rd', 'impecc', 'distro', 'inferen', 'insid', 'tattl', 'engineer', 'exp', 'eng', 'engulf', 'binom',
-    'colloquial', 'confiden', 'collocat', 'terra', 'dignif', 'ceo',
+    'colloquial', 'confiden', 'collocat', 'terra', 'dignif', 'ceo', 'cue', 'daily', 'co', 'copilot', 'com', 'comm', 'worn',
+    'deteriorat', 'facet', 'id', 'ide', 'idle', 'enlight', 'enliv', 'function',
 
     # privacy, propp, propensit, propropeller
     #'in', #'up', 'un', 'co',
@@ -468,7 +469,7 @@ word_pieces = [
     "##categor", "##caught", "##ceremon", "##certain", "##chain", "##chang", "##chart", "##civil", "##clear", "##comfort",
     "##comment", "##common", "##compet", "##compromis", "##concern", "##confirm", "##constrain", "##convent", "##convinc",
     "##coordinat", "##correlat", "##coupl", "##couth", "##cover", "##curat", "##daunt", "##decid", "##copy", "##contest", "##bred",
-    "##graduat", "##deni", "##serializ", "##stabiliz", "##guard", "##spatial", "##posit", "##oper", "##visib", "##volunt",
+    "##graduat", "##deni", "##serializ", "##stabiliz", "##guard", "##spatial", "##posit", "##oper", "##visib", "##voluntar",
     "##cell", "##batch", "##computer", "##chrom", "##shell", "##auth", "##ops", "##combin", "##calcul", "##calibrat", "##call",
     "##certif", "##base", "##bind", "##boot", "##born", "##assuranc", "##assess", "##bas", "##analys", "##affirm", "##essential",
     "##possess", "##requisit", "##rout", "##filt", "##phras", "##menu", "##entr", "##generat", "##imburs", "##sembl", "##spect",
@@ -494,7 +495,7 @@ word_pieces = [
     "##total", "##aware", "##negotiat", "##new", "##matrix", "##screen", "##sock", "##forgiv", "##admin", "##house", "##gam", "##fps",
     "##drew", "##mod", "##distanc", "##apply", "##appli", "##trie", "##ible", "##ibly", "##ility", "##walk", "##instan", "##lemma",
     "##px", "##bart", "##nomic", "##based", "##mediat", "##strap", "##ance", "##currenc", "##iate", "##iation", "##iating",
-    "##ary", "##ence", "##ency", "##ifi", "##oid"
+    "##ary", "##ence", "##ency", "##ifi", "##oid", "##ily", "##item", "##ial", "##ies", "##enc",
     # ic-ical-ically
     ##go, all
     # ize ized subgroup oper led
@@ -504,9 +505,15 @@ word_pieces = [
 def create_vocab():
     ## check dublicates
     seen = set()
-    for item in word_pieces:
+    for item in diixo:
         if item in seen:
             print(f"::{item}")
+        seen.add(item)
+
+    seen = set()
+    for item in word_pieces:
+        if item in seen:
+            print(f"##{item}")
         seen.add(item)
     ###################################
     vocab = sorted(diixo) + word_pieces
