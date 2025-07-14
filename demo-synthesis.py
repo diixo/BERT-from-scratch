@@ -86,6 +86,9 @@ print("tokenizer.sz=", hf_tokenizer.vocab_size)
 
 bge_tokenizer = AutoTokenizer.from_pretrained("BAAI/bge-large-en")
 gte_tokenizer = AutoTokenizer.from_pretrained("thenlper/gte-large")
+# print(bge_tokenizer.do_lower_case)
+# print(gte_tokenizer.do_lower_case)
+
 
 def tokens_to_file(tokenizer):
     with open("data/db-full.txt", "r", encoding="utf-8") as f:
